@@ -35,32 +35,34 @@ with abas[0]:
 
 # -------- BIOMOVE --------
 with abas[1]:
-	file_path = "image/gif3.gif"
-	file_path1 = "image/7.gif"
-	
-	with open(file_path, "rb") as f:
-	    data = f.read()
-	    encoded_gif = base64.b64encode(data).decode("utf-8")
-	
-	with open(file_path1, "rb") as f:
-	    data1 = f.read()
-	    encoded_gif1 = base64.b64encode(data1).decode("utf-8")
-	    st.markdown(
-	        f"""
-	        <div style="display: flex; justify-content: center;">
-	            <img src="data:image/gif;base64,{encoded_gif}"
-	                 style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
-	                 alt="GIF redondo">
-	        </div>
-	        """,
-	        unsafe_allow_html=True
-	    )
+    file_path = "image/gif3.gif"
+    file_path1 = "image/7.gif"
+    
+    with open(file_path, "rb") as f:
+        data = f.read()
+        encoded_gif = base64.b64encode(data).decode("utf-8")
+    
+    with open(file_path1, "rb") as f:
+        data1 = f.read()
+        encoded_gif1 = base64.b64encode(data1).decode("utf-8")
+    
+    st.markdown(
+        f"""
+        <div style="display: flex; justify-content: center;">
+            <img src="data:image/gif;base64,{encoded_gif}"
+                 style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
+                 alt="GIF redondo">
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
     st.markdown("""
     <p style="text-align: justify;">
     <b><span style="color:#DC143C;">BioMove</span></b> é um projeto de um <span style="color:#DC143C;">carrinho controlado por sinais EMG</span>, criado para auxiliar na <span style="color:#DC143C;">fisioterapia interativa</span>. Utilizando <span style="color:#DC143C;">sensores musculares</span>, o sistema interpreta os sinais do corpo e os converte em comandos para movimentar o carrinho. A ideia é unir <span style="color:#DC143C;">tecnologia</span> e <span style="color:#DC143C;">gamificação</span> como forma de tornar o processo de reabilitação mais <span style="color:#DC143C;">dinâmico</span> e <span style="color:#DC143C;">motivador</span>.
     </p>
     """, unsafe_allow_html=True)
+
 
 # -------- ATUALIZAÇÃO SEMANAL --------
 with abas[2]:
