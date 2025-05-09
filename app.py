@@ -95,7 +95,7 @@ with abas[2]:
 with abas[3]:
 
     st.markdown("### Proposta de projeto")
-    st.markdown("""
+    st.markdown(f"""
     <p style="text-align: justify;">
         Nesta seção, está disponibilizada a proposta de projeto do Biomove.
         O documento reúne informações detalhadas sobre o escopo do projeto, sendo esta proposta já aprovada.
@@ -122,7 +122,7 @@ with abas[3]:
     """, unsafe_allow_html=True)
     st.markdown("""
      	<br>
-	<p style="color:#2F4F2F; text-align: center;">
+	<p style= text-align: center;">
             (Para acessar utilize o e-mail institucional)
         </p>
 	""",unsafe_allow_html=True)	
