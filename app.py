@@ -68,7 +68,7 @@ with abas[1]:
 
 # -------- ATUALIZAÇÃO SEMANAL --------
 with abas[2]:
-    st.markdown("""
+    st.markdown(f"""
     <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
         <h4 style="color:#DC143C;">#1 - Atualização Semanal - 09/05/2024</h4>
         <ul style="color:#FFFFFF;">
