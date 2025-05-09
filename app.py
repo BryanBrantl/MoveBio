@@ -80,7 +80,7 @@ with abas[2]:
         - Implementar sistema de pontuação/gamificação  
         - Início da validação com usuários reais
         """)
-with abas[3]:
+with abas[2]:
     st.markdown("""
     <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
         <h4 style="color:#DC143C;">#01 - Atualização Semanal - 09/05/2025</h4>
