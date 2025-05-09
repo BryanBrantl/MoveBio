@@ -32,44 +32,28 @@ with abas[0]:
                 </div>
             """, unsafe_allow_html=True)
 with abas[1]:
-    st.markdown("""<h1>a</h1>""", unsafe_allow_html=True)
-# Estilo customizado
-st.markdown("""
-    <style>
-    .centered {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-    }
-    .custom-img {
-        border-radius: 12px;
-        box-shadow: 0 0 15px #DC143C;
-        width: 200px;
-    }
-    </style>
-""", unsafe_allow_html=True)
+    # Carrega o GIF e converte para base64
+    file_path = "image/gif3.gif"
+    with open(file_path, "rb") as f:
+        data = f.read()
+        encoded_gif = base64.b64encode(data).decode("utf-8")
 
-file_path = "image/gif3.gif"
-with open(file_path, "rb") as f:
-    data = f.read()
-    encoded_gif = base64.b64encode(data).decode("utf-8")
+    # Exibe o GIF redondo
+    st.markdown(
+        f"""
+        <div style="display: flex; justify-content: center;">
+            <img src="data:image/gif;base64,{encoded_gif}"
+                 style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
+                 alt="GIF redondo">
+        </div>
+        <p style="text-align: center;">(GIF)</p>
+        """,
+        unsafe_allow_html=True
+    )
 
-# Exibe o GIF redondo
-st.markdown(
-    f"""
-    <div style="display: flex; justify-content: center;">
-        <img src="data:image/gif;base64,{encoded_gif}"
-             style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
-             alt="GIF redondo">
-    </div>
-    <p style="text-align: center;">(GIF)</p>
-    """,
-    unsafe_allow_html=True
-)
-
-# Texto descritivo
-st.markdown("""
-<p style="text-align: justify;">
-<b><span style="color:#DC143C;">BioMove</span></b> é um projeto de um <span style="color:#DC143C;">carrinho controlado por sinais EMG</span>, criado para auxiliar na <span style="color:#DC143C;">fisioterapia interativa</span>. Utilizando <span style="color:#DC143C;">sensores musculares</span>, o sistema interpreta os sinais do corpo e os converte em comandos para movimentar o carrinho. A ideia é unir <span style="color:#DC143C;">tecnologia</span> e <span style="color:#DC143C;">gamificação</span> como forma de tornar o processo de reabilitação mais <span style="color:#DC143C;">dinâmico</span> e <span style="color:#DC143C;">motivadoe</span>.
-</p>
-""", unsafe_allow_html=True)
+    # Texto descritivo
+    st.markdown("""
+    <p style="text-align: justify;">
+    <b><span style="color:#DC143C;">BioMove</span></b> é um projeto de um <span style="color:#DC143C;">carrinho controlado por sinais EMG</span>, criado para auxiliar na <span style="color:#DC143C;">fisioterapia interativa</span>. Utilizando <span style="color:#DC143C;">sensores musculares</span>, o sistema interpreta os sinais do corpo e os converte em comandos para movimentar o carrinho. A ideia é unir <span style="color:#DC143C;">tecnologia</span> e <span style="color:#DC143C;">gamificação</span> como forma de tornar o processo de reabilitação mais <span style="color:#DC143C;">dinâmico</span> e <span style="color:#DC143C;">motivadoe</span>.
+    </p>
+    """, unsafe_allow_html=True)
