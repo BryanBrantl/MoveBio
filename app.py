@@ -81,28 +81,28 @@ with abas[2]:
         - Início da validação com usuários reais
         """)
 with abas[2]:
-st.markdown("""
-<div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
-    <h4 style="color:#DC143C;">#1 - Atualização Semanal - 09/05/2024</h4>
-    <ul style="color:#FFFFFF;">
-        <li>Realizados testes nos principais componentes do carrinho (motor DC, ESP32 e ponte H), sem identificação de defeitos.</li>
-        <li>Conduzido estudo sobre softwares de modelagem 3D. Optou-se pela utilização do <b>Eagle</b> para o desenvolvimento do carrinho e do sistema EMG.</li>
-        <li>Modelo do site finalizado.</li>
-        <li>Proposta e cronograma revisados e atualizados conforme a devolutiva, já disponíveis no site.</li>
-	<li>Decisões sobre o projeto: Definido que será utilizado baterias 18650 (4.2v) para alimentação dos sistemas.</li>
-	<li>simulação EMG.</li>	
-        f"""
-        <div style="display: flex; justify-content: center;">
-            <img src="data:image/gif;base64,{encoded_gif}"
-                 style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
-                 alt="GIF redondo">
-        </div>
-        """,
-
-
-    </ul>
-</div>
-""", unsafe_allow_html=True)
+	st.markdown("""
+	<div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
+	    <h4 style="color:#DC143C;">#1 - Atualização Semanal - 09/05/2024</h4>
+	    <ul style="color:#FFFFFF;">
+	        <li>Realizados testes nos principais componentes do carrinho (motor DC, ESP32 e ponte H), sem identificação de defeitos.</li>
+	        <li>Conduzido estudo sobre softwares de modelagem 3D. Optou-se pela utilização do <b>Eagle</b> para o desenvolvimento do carrinho e do sistema EMG.</li>
+	        <li>Modelo do site finalizado.</li>
+	        <li>Proposta e cronograma revisados e atualizados conforme a devolutiva, já disponíveis no site.</li>
+		<li>Decisões sobre o projeto: Definido que será utilizado baterias 18650 (4.2v) para alimentação dos sistemas.</li>
+		<li>simulação EMG.</li>	
+	        f"""
+	        <div style="display: flex; justify-content: center;">
+	            <img src="data:image/gif;base64,{encoded_gif}"
+	                 style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
+	                 alt="GIF redondo">
+	        </div>
+	        """,
+	
+	
+	    </ul>
+	</div>
+	""", unsafe_allow_html=True)
 
 
 with abas[4]:
