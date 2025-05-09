@@ -95,7 +95,7 @@ with abas[3]:
 
     # Link bonito (exemplo de link)
     link_doc = "https://docs.google.com/document/d/1uJpoXcehrK1Lv2cPMxUtHkvSNNtmgnatSJdmxfzy8gc/edit?usp=sharing"
-    st.markdown("""
+    st.markdown(f"""
         <div style='text-align: center; margin-top: 20px;'>
             <a href="{link_doc}" target="_blank" style="
                 background-color: #4CAF50;
@@ -128,7 +128,7 @@ with abas[4]:
     """, unsafe_allow_html=True)
 
     link_drive = "https://docs.google.com/spreadsheets/d/1Fb5_otX8z50tuy9RbcGGC89BLKfErs_SCnML-JGeyQU/edit?usp=sharing"
-    st.markdown("""
+    st.markdown(f"""
         <div style='text-align: center; margin-top: 20px;'>
             <a href="{link_drive}" target="_blank" style="
                 background-color: #4CAF50;
@@ -140,5 +140,5 @@ with abas[4]:
             ">
                 Acessar Cronograma e Custos
             </a>
-        </div>
-    """, unsafe_allow_html=True)
+        </div> 
+	""", unsafe_allow_html=True)
