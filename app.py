@@ -8,29 +8,30 @@ st.markdown("## BIOMOVE")
 abas = st.tabs(["Home", "BioMove", "Atualização Semanal", "Relatórios", "Cronograma"])
 
 with abas[0]:
-    st.markdown("""<h1>Home</h1>""", unsafe_allow_html=True)
-
-    # 👤 Perfis dos integrantes com imagens personalizadas
-    colunas = st.columns(4)
-    fotos = ["image/foto_01.png", "image/foto_02.png", "image/foto_03.png", "image/foto_04.png"]
-    nomes = [
-        ("Bryan Alexandre de Lima Brantl", "2414139", "brantl@alunos.utfpr.edu.br", "(41) 99278-3929"),
-        ("João Roberto Klassen", "2414155", "joaoklassen@alunos.utfpr.edu.br", "41 99742-4536"),
-        ("Leonardo Amancio", "2402580", "leonardoamancio@alunos.utfpr.edu.br", "41 99805-1279"),
-        ("Luiz Prado", "2402629", "luizoliveira.2002@alunos.utfpr.edu.br", "41 99815-6532")
-    ]
-
-    for col, foto, (nome, ra, email, tel) in zip(colunas, fotos, nomes):
-        with col:
-            st.image(foto, width=500)
-            st.markdown(f"""
-                <div style='text-align: center;'>
-                    <p><b>{nome}</b></p>
-                    <p>RA: {ra}</p>
-                    <p>Email: {email}</p>
-                    <p>Contato: {tel}</p>
-                </div>
-            """, unsafe_allow_html=True)
+	    for col, foto, (nome, ra, email, tel) in zip(colunas, fotos, nomes):
+	        with col:
+	            st.image(foto, width=500)
+	            st.markdown(f"""
+	                <div style='text-align: center;'>
+	                    <p><b>{nome}</b></p>
+	                    <p>RA: {ra}</p>
+	                    <p>Email: {email}</p>
+	                    <p>Contato: {tel}</p>
+	                </div>
+	            """, unsafe_allow_html=True)
+	
+	    # ➕ Adição dos vídeos e SVGs da pasta "svg"
+	    st.markdown("<hr><h2>Vídeos e SVGs</h2>", unsafe_allow_html=True)
+	
+	    for i in range(1, 9):
+	        st.markdown(f"<h4>Item {i}</h4>", unsafe_allow_html=True)
+	        st.video(f"svg/{i}.mp4")
+	        try:
+	            with open(f"svg/{i}.svg", "r", encoding="utf-8") as file:
+	                svg_content = file.read()
+	                st.markdown(svg_content, unsafe_allow_html=True)
+	        except FileNotFoundError:
+	            st.warning(f"Arquivo svg/{i}.svg não encontrado.")
 with abas[1]:
     # Carrega o GIF e converte para base64
     file_path = "image/gif3.gif"
