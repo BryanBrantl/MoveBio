@@ -102,8 +102,7 @@ with abas[3]:
             </a>
         </div>
 	<p style="color:#2F4F2F; text-align: center;">
- 
-            	(Para acessar utilize o e-mail institucional)
+            (Para acessar utilize o e-mail institucional)
         </p>
     </div>
     """, unsafe_allow_html=True)
