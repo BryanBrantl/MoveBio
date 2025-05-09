@@ -93,34 +93,39 @@ with abas[2]:
 	""", unsafe_allow_html=True)
 
 with abas[3]:
+
+    st.markdown("### Proposta de projeto")
     st.markdown("""
-    <div style="background-color:#DFFFE0; padding:20px; border-radius:10px;">
-        <h4 style="color:#000000;">Proposta de projeto</h4>
-        <p style="color:#2F4F2F; text-align: justify;">
-            Nesta seção, está disponibilizada a proposta de projeto do Biomove.
-            O documento reúne informações detalhadas sobre o escopo do projeto, sendo esta proposta já aprovada.
-        </p>
-        <p style="color:#2F4F2F; text-align: justify;">
-            Você pode acessar o documento completo clicando no botão abaixo:
-        </p>
+    <p style="text-align: justify;">
+        Nesta seção, está disponibilizada a proposta de projeto do Biomove.
+        O documento reúne informações detalhadas sobre o escopo do projeto, sendo esta proposta já aprovada.
+
+	Você pode acessar o documento completo clicando no botão abaixo:
+    </p>
+    """, unsafe_allow_html=True)
+
+    # Link bonito (exemplo de link)
+    link_doc = "https://docs.google.com/document/d/1uJpoXcehrK1Lv2cPMxUtHkvSNNtmgnatSJdmxfzy8gc/edit?usp=sharing"
+    st.markdown("""
         <div style='text-align: center; margin-top: 20px;'>
-            <a href="https://docs.google.com/document/d/1uJpoXcehrK1Lv2cPMxUtHkvSNNtmgnatSJdmxfzy8gc/edit?usp=sharing" target="_blank" style="
+            <a href="{link_doc}" target="_blank" style="
                 background-color: #4CAF50;
                 color: white;
-                padding: 12px 25px;
+                padding: 10px 20px;
                 text-decoration: none;
-                border-radius: 8px;
-                font-size: 17px;
+                border-radius: 5px;
+                font-size: 16px;
             ">
                 Acessar Proposta
             </a>
         </div>
-	<br>
+    """, unsafe_allow_html=True)
+    st.markdown("""
+     	<br>
 	<p style="color:#2F4F2F; text-align: center;">
             (Para acessar utilize o e-mail institucional)
         </p>
-    </div>
-    """, unsafe_allow_html=True)
+	""",unsafe_allow_html=True)	
 
 
 with abas[4]:
@@ -135,7 +140,7 @@ with abas[4]:
 
     # Link bonito (exemplo de link)
     link_drive = "https://docs.google.com/spreadsheets/d/1Fb5_otX8z50tuy9RbcGGC89BLKfErs_SCnML-JGeyQU/edit?usp=sharing"
-    st.markdown(f"""
+    st.markdown("""
         <div style='text-align: center; margin-top: 20px;'>
             <a href="{link_drive}" target="_blank" style="
                 background-color: #4CAF50;
