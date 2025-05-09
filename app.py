@@ -61,18 +61,18 @@ with abas[1]:
 with abas[2]:
     col1, col2 = st.columns(2)
     
-        with col1:
-            st.markdown(
-                f"""
-                <div style="display: flex; justify-content: center;">
-                    <img src="data:image/gif;base64,{encoded_gif}"
-                         style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
-                         alt="GIF redondo">
-                </div>
-                <p style="text-align: center;">(GIF)</p>
-                """,
-                unsafe_allow_html=True
-            )
+    with col1:
+        st.markdown(
+             f"""
+            <div style="display: flex; justify-content: center;">
+                        <img src="data:image/gif;base64,{encoded_gif}"
+                        style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
+                        alt="GIF redondo">
+            </div>
+             <p style="text-align: center;">(GIF)</p>
+             """,
+             unsafe_allow_html=True
+        )
 
     with col2:
         st.markdown("### 📅 Planejamento para a Próxima Semana")
