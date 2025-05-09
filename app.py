@@ -91,8 +91,6 @@ st.markdown("""
         <li>Proposta e cronograma revisados e atualizados conforme a devolutiva, já disponíveis no site.</li>
 	<li>Decisões sobre o projeto: Definido que será utilizado baterias 18650 (4.2v) para alimentação dos sistemas.</li>
 	<li>simulação EMG.</li>	
-
-	  st.markdown(
         f"""
         <div style="display: flex; justify-content: center;">
             <img src="data:image/gif;base64,{encoded_gif}"
@@ -100,8 +98,7 @@ st.markdown("""
                  alt="GIF redondo">
         </div>
         """,
-        unsafe_allow_html=True
-    )
+
 
     </ul>
 </div>
