@@ -4,7 +4,7 @@ import base64
 st.set_page_config(page_title="Projeto - BioMove", layout="wide")
 
 # Título ou seção
-st.markdown("## Projeto")
+st.markdown("## BIOMOVE")
 abas = st.tabs(["Home", "BioMove", "Atualização Semanal", "Relatórios", "Cronograma"])
 
 with abas[0]:
@@ -14,10 +14,10 @@ with abas[0]:
     colunas = st.columns(4)
     fotos = ["image/foto_01.png", "image/foto_02.png", "image/foto_03.png", "image/foto_04.png"]
     nomes = [
-        ("Bryan Alexandre de Lima Brantl", "2414139", "email@alunos.utfpr.edu.br", "41 992783929"),
-        ("João Roberto Klassen", "2414XXX", "email@alunos.utfpr.edu.br", "41 992783929"),
-        ("Leonardo Amancio", "240XXX", "email@alunos.utfpr.edu.br", "41 992783929"),
-        ("Luiz Prado", "240XXX", "email@alunos.utfpr.edu.br", "41 992783929")
+        ("Bryan Alexandre de Lima Brantl", "2414139", "brantl@alunos.utfpr.edu.br", "(41) 99278-3929"),
+        ("João Roberto Klassen", "2414155", "joaoklassen@alunos.utfpr.edu.br", "41 99742-4536"),
+        ("Leonardo Amancio", "2402580", "leonardoamancio@alunos.utfpr.edu.br", "41 99805-1279"),
+        ("Luiz Prado", "2402629", "luizoliveira.2002@alunos.utfpr.edu.br", "41 99815-6532")
     ]
 
     for col, foto, (nome, ra, email, tel) in zip(colunas, fotos, nomes):
@@ -31,7 +31,7 @@ with abas[0]:
                     <p>Contato: {tel}</p>
                 </div>
             """, unsafe_allow_html=True)
-
+with abas[1]
 # Estilo customizado
 st.markdown("""
     <style>
