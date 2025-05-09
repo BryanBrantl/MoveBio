@@ -80,3 +80,13 @@ with abas[2]:
         - Implementar sistema de pontuação/gamificação  
         - Início da validação com usuários reais
         """)
+
+    st.markdown("""
+    <div style="background-color:#f0f0f0; padding:15px; border-radius:10px;">
+        <h4 style="color:#DC143C;">Título do Bloco</h4>
+        <p style="color:#333;">
+            Este é um bloco de texto com um fundo cinza claro, útil para destacar informações importantes,
+            avisos ou seções específicas do seu app.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
