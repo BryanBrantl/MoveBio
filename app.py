@@ -98,7 +98,7 @@ with abas[3]:
                 border-radius: 8px;
                 font-size: 17px;
             ">
-                📥 Acessar Proposta
+                Acessar Proposta
             </a>
         </div>
 	<br>
@@ -131,7 +131,7 @@ with abas[4]:
                 border-radius: 5px;
                 font-size: 16px;
             ">
-                📥 Acessar Cronograma e Custos
+                Acessar Cronograma e Custos
             </a>
         </div>
     """, unsafe_allow_html=True)
