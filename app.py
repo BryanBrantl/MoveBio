@@ -59,29 +59,7 @@ with abas[1]:
     """, unsafe_allow_html=True)
 
 with abas[2]:
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown(
-             f"""
-            <div style="display: flex; justify-content: center;">
-                        <img src="data:image/gif;base64,{encoded_gif}"
-                        style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
-                        alt="GIF redondo">
-            </div>
-             """,
-             unsafe_allow_html=True
-        )
-
-    with col2:
-        st.markdown("### 📅 Planejamento para a Próxima Semana")
-        st.write("""
-        - Finalizar controle via Streamlit  
-        - Implementar sistema de pontuação/gamificação  
-        - Início da validação com usuários reais
-        """)
-with abas[2]:
-	st.markdown("""
+	st.markdown(f"""
 	<div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
 	    <h4 style="color:#DC143C;">#1 - Atualização Semanal - 09/05/2024</h4>
 	    <ul style="color:#FFFFFF;">
@@ -89,18 +67,14 @@ with abas[2]:
 	        <li>Conduzido estudo sobre softwares de modelagem 3D. Optou-se pela utilização do <b>Eagle</b> para o desenvolvimento do carrinho e do sistema EMG.</li>
 	        <li>Modelo do site finalizado.</li>
 	        <li>Proposta e cronograma revisados e atualizados conforme a devolutiva, já disponíveis no site.</li>
-		<li>Decisões sobre o projeto: Definido que será utilizado baterias 18650 (4.2v) para alimentação dos sistemas.</li>
-		<li>simulação EMG.</li>	
-	        f"""
-	        <div style="display: flex; justify-content: center;">
-	            <img src="data:image/gif;base64,{encoded_gif}"
-	                 style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
-	                 alt="GIF redondo">
-	        </div>
-	        """,
-	
-	
+	        <li>Decisões sobre o projeto: Definido que será utilizado baterias 18650 (4.2v) para alimentação dos sistemas.</li>
+	        <li>simulação EMG:</li>    
 	    </ul>
+	    <div style="display: flex; justify-content: center; margin-top: 20px;">
+	        <img src="data:image/gif;base64,{encoded_gif}"
+	             style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
+	             alt="GIF redondo">
+	    </div>
 	</div>
 	""", unsafe_allow_html=True)
 
