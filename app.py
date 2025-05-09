@@ -99,7 +99,9 @@ with abas[3]:
     <p style="text-align: justify;">
         Nesta seção, está disponibilizada a proposta de projeto do Biomove.
         O documento reúne informações detalhadas sobre o escopo do projeto, sendo esta proposta já aprovada.
-
+    </p>
+    <br>
+    <p style="text-align: justify;"> 
 	Você pode acessar o documento completo clicando no botão abaixo:
     </p>
     """, unsafe_allow_html=True)
@@ -122,7 +124,7 @@ with abas[3]:
     """, unsafe_allow_html=True)
     st.markdown("""
      	<br>
-	<p style= text-align: center;">
+	<p style= "text-align: center;">
             (Para acessar utilize o e-mail institucional)
         </p>
 	""",unsafe_allow_html=True)	
