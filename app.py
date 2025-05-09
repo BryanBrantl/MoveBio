@@ -91,7 +91,7 @@ with abas[2]:
     </div>
     """, unsafe_allow_html=True)
 with abas[4]:
-    st.markdown("### 📅 Cronograma e Custos do Projeto")
+    st.markdown("###Cronograma e Custos do Projeto")
     st.markdown("""
     <p style="text-align: justify;">
     Nesta seção, está disponibilizado o cronograma completo juntamente com os custos previstos e realizados do projeto <b><span style="color:#DC143C;">BioMove</span></b>.
