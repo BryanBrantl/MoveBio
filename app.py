@@ -84,7 +84,7 @@ with abas[2]:
     st.markdown("""
     <div style="background-color:#f0f0f0; padding:15px; border-radius:10px;">
         <h4 style="color:#DC143C;">Título do Bloco</h4>
-        <p style="color:#333;">
+        <p style="color:#1C1C1C;">
             Este é um bloco de texto com um fundo cinza claro, útil para destacar informações importantes,
             avisos ou seções específicas do seu app.
         </p>
