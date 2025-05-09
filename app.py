@@ -84,7 +84,6 @@ with abas[3]:
         <h4 style="color:#000000;">Proposta de projeto</h4>
         <p style="color:#2F4F2F; text-align: justify;">
             Nesta seção, está disponibilizada a proposta de projeto do Biomove.
-	    <br>
             O documento reúne informações detalhadas sobre o escopo do projeto, sendo esta proposta já aprovada.
         </p>
         <p style="color:#2F4F2F; text-align: justify;">
