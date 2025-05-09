@@ -33,30 +33,6 @@ with abas[0]:
                 </div>
             """, unsafe_allow_html=True)
 
-    # ➕ Seção de vídeos com autoplay e SVGs
-    st.markdown("<hr><h2>Vídeos e SVGs</h2>", unsafe_allow_html=True)
-
-    for i in range(1, 9):
-        st.markdown(f"<h4>Item {i}</h4>", unsafe_allow_html=True)
-
-        # Inserir vídeo com autoplay, muted e loop usando HTML
-        video_path = f"svg/{i}.mp4"
-        st.markdown("""
-            <video autoplay muted loop width="100%" style="border-radius: 8px;">
-                <source src="{video_path}" type="video/mp4">
-                Seu navegador não suporta vídeos HTML5.
-            </video>
-        """, unsafe_allow_html=True)
-
-        # Inserir SVG
-        svg_path = f"svg/{i}.svg"
-        try:
-            with open(svg_path, "r", encoding="utf-8") as file:
-                svg_content = file.read()
-                st.markdown(svg_content, unsafe_allow_html=True)
-        except FileNotFoundError:
-            st.warning(f"Arquivo '{svg_path}' não encontrado.")
-
 # -------- BIOMOVE --------
 with abas[1]:
     file_path = "image/gif3.gif"
