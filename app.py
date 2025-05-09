@@ -32,6 +32,7 @@ with abas[0]:
                 </div>
             """, unsafe_allow_html=True)
 with abas[1]:
+    st.markdown("""<h1>BioMove</h1>""", unsafe_allow_html=True)
 # Estilo customizado
 st.markdown("""
     <style>
