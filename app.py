@@ -92,12 +92,12 @@ with abas[2]:
     """, unsafe_allow_html=True)
 with abas[4]:
     st.markdown("### 📅 Cronograma e Custos do Projeto")
-
-    st.write("""
+    st.markdown("""
+    <p style="text-align: justify;">
     Nesta seção, está disponibilizado o cronograma completo juntamente com os custos previstos e realizados do projeto <b><span style="color:#DC143C;">BioMove</span></b>.
-    
     Você pode acessar o documento completo clicando no botão abaixo:
-    """)
+    </p>
+    """, unsafe_allow_html=True)
 
     # Link bonito (exemplo de link)
     link_drive = "https://docs.google.com/spreadsheets/d/1Fb5_otX8z50tuy9RbcGGC89BLKfErs_SCnML-JGeyQU/edit?usp=sharing"
