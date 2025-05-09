@@ -31,7 +31,7 @@ with abas[0]:
                     <p>Contato: {tel}</p>
                 </div>
             """, unsafe_allow_html=True)
-with abas[1]
+with abas[1]:
 # Estilo customizado
 st.markdown("""
     <style>
