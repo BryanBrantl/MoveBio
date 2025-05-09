@@ -78,6 +78,32 @@ with abas[2]:
 	</div>
 	""", unsafe_allow_html=True)
 
+with abas[3]:
+    st.markdown("""
+    <div style="background-color:#DFFFE0; padding:20px; border-radius:10px;">
+        <h4 style="color:#000000;">### Proposta de projeto</h4>
+        <p style="color:#2E8B57; text-align: justify;">
+            Nesta seção, está disponibilizada a proposta de projeto do Biomove.
+            O documento reúne informações detalhadas sobre o escopo do projeto. Sendo esta proposta já aprovada.
+        </p>
+        <p style="color:#2E8B57; text-align: justify;">
+            Você pode acessar o documento completo clicando no botão abaixo:
+        </p>
+        <div style='text-align: center; margin-top: 20px;'>
+            <a href="https://docs.google.com/spreadsheets/d/1Fb5_otX8z50tuy9RbcGGC89BLKfErs_SCnML-JGeyQU/edit?usp=sharing" target="_blank" style="
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 25px;
+                text-decoration: none;
+                border-radius: 8px;
+                font-size: 17px;
+            ">
+                📥 Acessar Proposta
+            </a>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
 
 with abas[4]:
     st.markdown("### Cronograma e Custos do Projeto")
