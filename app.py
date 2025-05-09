@@ -100,7 +100,6 @@ with abas[3]:
         Nesta seção, está disponibilizada a proposta de projeto do Biomove.
         O documento reúne informações detalhadas sobre o escopo do projeto, sendo esta proposta já aprovada.
     </p>
-    <br>
     <p style="text-align: justify;"> 
 	Você pode acessar o documento completo clicando no botão abaixo:
     </p>
