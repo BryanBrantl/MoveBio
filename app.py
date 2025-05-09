@@ -95,6 +95,7 @@ with abas[4]:
     st.markdown("""
     <p style="text-align: justify;">
     Nesta seção, está disponibilizado o cronograma completo juntamente com os custos previstos e realizados do projeto <b><span style="color:#DC143C;">BioMove</span></b>.
+    
     Você pode acessar o documento completo clicando no botão abaixo:
     </p>
     """, unsafe_allow_html=True)
