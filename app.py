@@ -45,16 +45,16 @@ with abas[1]:
 	with open(file_path1, "rb") as f:
 	    data1 = f.read()
 	    encoded_gif1 = base64.b64encode(data1).decode("utf-8")
-    st.markdown(
-        f"""
-        <div style="display: flex; justify-content: center;">
-            <img src="data:image/gif;base64,{encoded_gif}"
-                 style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
-                 alt="GIF redondo">
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+	    st.markdown(
+	        f"""
+	        <div style="display: flex; justify-content: center;">
+	            <img src="data:image/gif;base64,{encoded_gif}"
+	                 style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
+	                 alt="GIF redondo">
+	        </div>
+	        """,
+	        unsafe_allow_html=True
+	    )
 
     st.markdown("""
     <p style="text-align: justify;">
