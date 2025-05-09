@@ -59,10 +59,25 @@ with abas[1]:
     """, unsafe_allow_html=True)
 
 with abas[2]:
-    st.markdown("### Seção 1")
-    st.write("Conteúdo da seção 1")
-    
-    st.divider()  # ou st.markdown("---")
-    
-    st.markdown("### Seção 2")
-    st.write("Conteúdo da seção 2")
+col1, col2 = st.columns(2)
+
+    with col1:
+    st.markdown(
+        f"""
+        <div style="display: flex; justify-content: center;">
+            <img src="data:image/gif;base64,{encoded_gif}"
+                 style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
+                 alt="GIF redondo">
+        </div>
+        <p style="text-align: center;">(GIF)</p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    with col2:
+        st.markdown("### 📅 Planejamento para a Próxima Semana")
+        st.write("""
+        - Finalizar controle via Streamlit  
+        - Implementar sistema de pontuação/gamificação  
+        - Início da validação com usuários reais
+        """)
