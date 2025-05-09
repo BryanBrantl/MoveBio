@@ -80,16 +80,19 @@ with abas[2]:
         - Implementar sistema de pontuação/gamificação  
         - Início da validação com usuários reais
         """)
+with abas[3]:
+st.markdown("""
+<div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
+    <h4 style="color:#DC143C;">#1 - Atualização Semanal - 09/05/24</h4>
+    <ul style="color:#FFFFFF;">
+        <li>Foi testado os componentes do carrinho: motor DC, ESP32, ponte H. Nenhum componente apresentou defeito.</li>
+        <li>Estudo de software de modelagem 3D: foi decidido que o software utilizado será o <b>Eagle</b>, tanto para o carrinho quanto para o sistema EMG.</li>
+        <li>Finalizado o modelo do site, restando apenas a adição das atualizações semanais.</li>
+        <li>Proposta e cronograma atualizados conforme devolutiva, disponíveis na aba <b>"Relatório"</b>.</li>
+    </ul>
+</div>
+""", unsafe_allow_html=True)
 
-    st.markdown("""
-    <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
-        <h4 style="color:#DC143C;">Título do Bloco</h4>
-        <p style="color:#1C1C1C;">
-            Este é um bloco de texto com um fundo cinza claro, útil para destacar informações importantes,
-            avisos ou seções específicas do seu app.
-        </p>
-    </div>
-    """, unsafe_allow_html=True)
 with abas[4]:
     st.markdown("### Cronograma e Custos do Projeto")
     st.markdown("""
@@ -116,3 +119,5 @@ with abas[4]:
             </a>
         </div>
     """, unsafe_allow_html=True)
+
+
