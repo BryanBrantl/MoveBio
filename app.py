@@ -58,7 +58,7 @@ with abas[1]:
     </p>
     """, unsafe_allow_html=True)
 
-with abas[2]
+with abas[2]:
     st.markdown("### Seção 1")
     st.write("Conteúdo da seção 1")
     
