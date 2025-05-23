@@ -70,7 +70,7 @@ with abas[1]:
 with abas[2]:
     st.markdown(f"""
     <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
-        <h4 style="color:#DC143C;">#1 - Atualização Semanal - 09/05/2024</h4>
+        <h4 style="color:#DC143C;">#1 - Atualização Semanal - 09/05/2025</h4>
         <ul style="color:#FFFFFF;">
             <li>Realizados testes nos principais componentes do carrinho (motor DC, ESP32 e ponte H), sem identificação de defeitos.</li>
             <li>Conduzido estudo sobre softwares de modelagem 3D. Optou-se pela utilização do <b>Eagle</b> para o desenvolvimento do carrinho e do sistema EMG.</li>
