@@ -46,7 +46,7 @@ with abas[0]:
 
     for col, foto, (nome, ra, email, tel) in zip(colunas, fotos, nomes):
         with col:
-            st.image(foto, width=200)
+            st.image(foto, width=500)
             st.markdown(f"""
                 <div style='text-align: center;'>
                     <p><b>{nome}</b></p>
