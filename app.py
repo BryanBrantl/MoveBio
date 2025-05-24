@@ -162,22 +162,27 @@ with abas[2]:
     <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
         <h4 style="color:#DC143C;">#2 - Atualização Semanal - 16/05/2025</h4>
         <ul style="color:#FFFFFF;">
-            <li>Exemplo 1: Ajustar parâmetros de filtragem do sinal EMG (filtro passa-banda).</li>
-            <li>Exemplo 2: Validar comunicação entre ESP32 do Módulo EMG e ESP32 do carrinho via Bluetooth.</li>
-            <li>Exemplo 3: Construir protótipo inicial da PCB do sensor EMG e testar na bancada.</li>
-            <li>Exemplo 4: Implementar controle proporcional de velocidade com base na intensidade do sinal.</li>
-            <li>Exemplo 5: Definir layout do chassi em MDF e iniciar cortes ou impressão 3D.</li>
+            <li>Definido a utilização de um Kit chassi para a construção do carrinho.</li>
+            <li>Montagem do sensor EMG em protoboard baseado no esquemático da semana anterior.</li>
+            <li>Validamos o sinal no osciloscópio, detectado presença de ruído da rede.</li>
+            <li>Definido a necessidade de implementar mais filtros no circuito para reduzir o ruído.</li>
+            <li>Circuito montado em protoboard:</li>
         </ul>
         <div style="display: flex; justify-content: center; margin-top: 20px;">
             <!-- st.image("caminho/para/imagem_exemplo_atualizacao2.png", width=200) -->
-            <img src="data:image/png;base64,{base64.b64encode(open('image/foto_03.png','rb').read()).decode('utf-8')}"
-                 style="width: 200px; height: 200px; border-radius: 10px; object-fit: cover;"
-                 alt="Exemplo atualização 2">
+            <img src="data:image/png;base64,{base64.b64encode(open('image/Protoboard.jpg','rb').read()).decode('utf-8')}"
+                 style="width: 400px; height: 150px; border-radius: 10px; object-fit: cover;"
+                 alt="Circuito montado">
         </div>
+        <ul style="color:#FFFFFF;">
+            <li>Sinal no osciloscópio:</li>
+        </ul>
+            <!-- st.image("caminho/para/imagem_exemplo_atualizacao3.png", width=200) -->
+            <img src="data:image/png;base64,{base64.b64encode(open('image/Osciloscopio_Protoboard.jpg','rb').read()).decode('utf-8')}"
+                 style="width: 400px; height: 400px; border-radius: 10px; object-fit: cover;"
+                 alt="Sinal gerado">
     </div>
     """, unsafe_allow_html=True)
-
-    st.markdown("<div style='height:40px;'></div>", unsafe_allow_html=True)
 
     # === Atualização Semanal #1 ===
     st.markdown(f"""
