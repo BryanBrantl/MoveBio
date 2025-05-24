@@ -8,10 +8,11 @@ st.markdown("## BIOMOVE")
 abas = st.tabs(["Home", "BioMove", "Atualização Semanal", "Relatórios", "Cronograma"])
 
 # -------- HOME --------
+st.write("teste")
 with abas[0]:
     # Título principal
     st.markdown("""<h1>Home</h1>""", unsafe_allow_html=True)
-    st.write("teste")
+    
 
     # Descrição do site logo abaixo do título
     st.markdown("""
