@@ -67,7 +67,7 @@ with abas[1]:
 
     st.markdown("---")
 
-    # 📋 Problemática e Objetivo (equivalente a "Meeting Notes")
+    # 📋 Problemática e Objetivo
     col1, col2 = st.columns([1, 2], gap="large")
     with col1:
         # st.image("caminho/para/imagem_problemática.png", width=150)
@@ -88,7 +88,7 @@ with abas[1]:
 
     st.markdown("---")
 
-    # 📑 Proposta e Escopo (equivalente a "Project Briefs")
+    # 📑 Proposta e Escopo
     col3, col4 = st.columns([2, 1], gap="large")
     with col3:
         st.markdown("### 📑 Proposta e Escopo")
@@ -101,7 +101,7 @@ with abas[1]:
           no robô, concentrando esforços na aquisição e interpretação dos sinais.
 
         **Funcionamento Básico**:
-        1. Eletrodos posicionados em músculos-alvo (bíceps direito e esquerdo)
+        1. Eletrodos posicionados em músculos-alvo (bíceps direito e esquerdo).
         2. Captação do sinal EMG e processamento para identificar ativação muscular.
         3. Tradução em comandos para mover o carrinho:
            - Ambos músculos ativados → carrinho anda para frente.
@@ -119,7 +119,7 @@ with abas[1]:
 
     st.markdown("---")
 
-    # ✅ Cronograma e Entregáveis (equivalente a "Task Tracking")
+    # ✅ Cronograma e Entregáveis
     col5, col6 = st.columns([1, 2], gap="large")
     with col5:
         # st.image("caminho/para/imagem_cronograma.png", width=150)
@@ -157,8 +157,9 @@ with abas[1]:
 
 # -------- ATUALIZAÇÃO SEMANAL --------
 with abas[2]:
+    # === Atualização Semanal #1 ===
     st.markdown(f"""
-    <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
+    <div style="background-color:#1C1C1C; padding:15px; border-radius:10px; margin-bottom: 20px;">
         <h4 style="color:#DC143C;">#1 - Atualização Semanal - 09/05/2025</h4>
         <ul style="color:#FFFFFF;">
             <li>Realizados testes nos principais componentes do carrinho (motor DC, ESP32 e ponte H), sem identificação de defeitos.</li>
@@ -173,6 +174,26 @@ with abas[2]:
             <img src="data:image/gif;base64,{base64.b64encode(open('image/gif3.gif','rb').read()).decode('utf-8')}"
                  style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
                  alt="GIF redondo">
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # === Atualização Semanal #2 (Exemplos para alterar depois) ===
+    st.markdown(f"""
+    <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
+        <h4 style="color:#DC143C;">#2 - Atualização Semanal - 16/05/2025</h4>
+        <ul style="color:#FFFFFF;">
+            <li>Exemplo 1: Ajustar parâmetros de filtragem do sinal EMG (filtro passa-banda).</li>
+            <li>Exemplo 2: Validar comunicação entre ESP32 do Módulo EMG e ESP32 do carrinho via Bluetooth.</li>
+            <li>Exemplo 3: Construir protótipo inicial da PCB do sensor EMG e testar na bancada.</li>
+            <li>Exemplo 4: Implementar controle proporcional de velocidade com base na intensidade do sinal.</li>
+            <li>Exemplo 5: Definir layout do chassi em MDF e iniciar cortes ou impressão 3D.</li>
+        </ul>
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <!-- st.image("caminho/para/imagem_exemplo_atualizacao2.png", width=200) -->
+            <img src="data:image/png;base64,{base64.b64encode(open('image/exemplo2.png','rb').read()).decode('utf-8')}"
+                 style="width: 200px; height: 200px; border-radius: 10px; object-fit: cover;"
+                 alt="Exemplo atualização 2">
         </div>
     </div>
     """, unsafe_allow_html=True)
