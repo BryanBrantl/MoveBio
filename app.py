@@ -177,7 +177,7 @@ with abas[2]:
     </div>
     """, unsafe_allow_html=True)
 
-    
+    st.markdown("<div style='height:40px;'></div>", unsafe_allow_html=True)
 
     # === Atualização Semanal #1 ===
     st.markdown(f"""
