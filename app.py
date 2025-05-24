@@ -46,7 +46,7 @@ with abas[0]:
 
     for col, foto, (nome, ra, email, tel) in zip(colunas, fotos, nomes):
         with col:
-            st.image(foto, width=500)
+            st.image(foto, width=200)
             st.markdown(f"""
                 <div style='text-align: center;'>
                     <p><b>{nome}</b></p>
@@ -157,26 +157,26 @@ with abas[1]:
 
 # -------- ATUALIZAÇÃO SEMANAL --------
 with abas[2]:
-    st.markdown("""
-    <div style="background-color:#1C1C1C; padding:20px; border-radius:10px; margin-bottom:20px;">
+    # === Atualização Semanal #1 ===
+    st.markdown(f"""
+    <div style="background-color:#1C1C1C; padding:15px; border-radius:10px; margin-bottom: 20px;">
         <h4 style="color:#DC143C;">#1 - Atualização Semanal - 09/05/2025</h4>
+        <ul style="color:#FFFFFF;">
+            <li>Realizados testes nos principais componentes do carrinho (motor DC, ESP32 e ponte H), sem identificação de defeitos.</li>
+            <li>Conduzido estudo sobre softwares de modelagem 3D. Optou-se pela utilização do <b>Eagle</b> para o desenvolvimento do carrinho e do sistema EMG.</li>
+            <li>Modelo do site finalizado.</li>
+            <li>Proposta e cronograma revisados e atualizados conforme a devolutiva, já disponíveis no site.</li>
+            <li>Decisões sobre o projeto: Definido que será utilizado baterias 18650 (4.2v) para alimentação dos sistemas.</li>
+            <li>Simulação EMG em andamento.</li>
+        </ul>
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <!-- st.image("caminho/para/imagem_simulacao_emg.gif", width=200) -->
+            <img src="data:image/gif;base64,{base64.b64encode(open('image/gif3.gif','rb').read()).decode('utf-8')}"
+                 style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
+                 alt="GIF redondo">
+        </div>
     </div>
     """, unsafe_allow_html=True)
-
-    with st.container():
-        st.markdown('<div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">', unsafe_allow_html=True)
-
-        st.write("- Realizados testes nos principais componentes do carrinho (motor DC, ESP32 e ponte H), sem identificação de defeitos.")
-        st.write("- Conduzido estudo sobre softwares de modelagem 3D. Optou-se pela utilização do **Eagle** para o desenvolvimento do carrinho e do sistema EMG.")
-        st.write("- Modelo do site finalizado.")
-        st.write("- Proposta e cronograma revisados e atualizados conforme a devolutiva, já disponíveis no site.")
-        st.write("- Decisões sobre o projeto: definido que será utilizado baterias 18650 (4.2v) para alimentação dos sistemas.")
-        st.write("- **Simulação EMG:**")
-
-        st.image("image/ESQUEMATICO_Semana1.JPG", caption="Imagem do esquemático EMG", use_column_width=True)
-
-        st.markdown("</div>", unsafe_allow_html=True)
-
 
     # === Atualização Semanal #2 (Exemplos para alterar depois) ===
     st.markdown(f"""
@@ -191,7 +191,7 @@ with abas[2]:
         </ul>
         <div style="display: flex; justify-content: center; margin-top: 20px;">
             <!-- st.image("caminho/para/imagem_exemplo_atualizacao2.png", width=200) -->
-            <img src="data:image/png;base64,{base64.b64encode(open('image/foto_03.png','rb').read()).decode('utf-8')}"
+            <img src="data:image/png;base64,{base64.b64encode(open('image/exemplo2.png','rb').read()).decode('utf-8')}"
                  style="width: 200px; height: 200px; border-radius: 10px; object-fit: cover;"
                  alt="Exemplo atualização 2">
         </div>
