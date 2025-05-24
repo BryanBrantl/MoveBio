@@ -189,7 +189,7 @@ with abas[2]:
             <li>Modelo do site finalizado.</li>
             <li>Proposta e cronograma revisados e atualizados conforme a devolutiva, já disponíveis no site.</li>
             <li>Decisões sobre o projeto: Definido que será utilizado baterias 18650 (4.2v) para alimentação dos sistemas.</li>
-            <li>Simulação EMG em andamento.</li>
+            <li>Construção do esquemático EMG:</li>
         </ul>
         <div style="display: flex; justify-content: center; margin-top: 20px;">
             <!-- st.image("caminho/para/imagem_simulacao_emg.gif", width=200) -->
