@@ -177,11 +177,12 @@ with abas[2]:
         <ul style="color:#FFFFFF;">
             <li>Sinal no osciloscópio:</li>
         </ul>
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
             <!-- st.image("caminho/para/imagem_exemplo_atualizacao3.png", width=200) -->
             <img src="data:image/png;base64,{base64.b64encode(open('image/Osciloscopio_Protoboard.jpg','rb').read()).decode('utf-8')}"
-                 style="width: 400px; height: 400px; border-radius: 10px; object-fit: cover;"
+                 style="width: 600px; height: 400px; border-radius: 10px; object-fit: cover;"
                  alt="Sinal gerado">
-    </div>
+        </div>
     """, unsafe_allow_html=True)
 
     # === Atualização Semanal #1 ===
