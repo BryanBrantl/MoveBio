@@ -177,6 +177,8 @@ with abas[2]:
     </div>
     """, unsafe_allow_html=True)
 
+    
+
     # === Atualização Semanal #1 ===
     st.markdown(f"""
     <div style="background-color:#1C1C1C; padding:15px; border-radius:10px; margin-bottom: 20px;">
