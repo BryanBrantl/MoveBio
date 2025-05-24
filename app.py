@@ -95,12 +95,12 @@ with abas[2]:
             <li>Modelo do site finalizado.</li>
             <li>Proposta e cronograma revisados e atualizados conforme a devolutiva, já disponíveis no site.</li>
             <li>Decisões sobre o projeto: Definido que será utilizado baterias 18650 (4.2v) para alimentação dos sistemas.</li>
-            <li>simulação EMG:</li>    
+            <li>Simulação EMG:</li>    
         </ul>
         <div style="display: flex; justify-content: center; margin-top: 20px;">
-            <img src="data:image/gif;base64,{encoded_gif}"
-                 style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
-                 alt="GIF redondo">
+            <img src="image/ESQUEMATICO_Semana1.jpg"
+                 style="width: 300px; border-radius: 10px; object-fit: cover;"
+                 alt="Imagem do esquemático EMG">
         </div>
     </div>
     """, unsafe_allow_html=True)
