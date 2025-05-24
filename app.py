@@ -157,28 +157,7 @@ with abas[1]:
 
 # -------- ATUALIZAÇÃO SEMANAL --------
 with abas[2]:
-    # === Atualização Semanal #1 ===
-    st.markdown(f"""
-    <div style="background-color:#1C1C1C; padding:15px; border-radius:10px; margin-bottom: 20px;">
-        <h4 style="color:#DC143C;">#1 - Atualização Semanal - 09/05/2025</h4>
-        <ul style="color:#FFFFFF;">
-            <li>Realizados testes nos principais componentes do carrinho (motor DC, ESP32 e ponte H), sem identificação de defeitos.</li>
-            <li>Conduzido estudo sobre softwares de modelagem 3D. Optou-se pela utilização do <b>Eagle</b> para o desenvolvimento do carrinho e do sistema EMG.</li>
-            <li>Modelo do site finalizado.</li>
-            <li>Proposta e cronograma revisados e atualizados conforme a devolutiva, já disponíveis no site.</li>
-            <li>Decisões sobre o projeto: Definido que será utilizado baterias 18650 (4.2v) para alimentação dos sistemas.</li>
-            <li>Simulação EMG em andamento.</li>
-        </ul>
-        <div style="display: flex; justify-content: center; margin-top: 20px;">
-            <!-- st.image("caminho/para/imagem_simulacao_emg.gif", width=200) -->
-            <img src="data:image/png;base64,{base64.b64encode(open('image/ESQUEMATICO_Semana1.JPG','rb').read()).decode('utf-8')}"
-                 style="width: 1325px; height: 600px; border-radius: 10px; object-fit: cover;"
-                 alt="Exemplo atualização 2">
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
-
-    # === Atualização Semanal #2 (Exemplos para alterar depois) ===
+    # === Atualização Semanal #2 ===
     st.markdown(f"""
     <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
         <h4 style="color:#DC143C;">#2 - Atualização Semanal - 16/05/2025</h4>
@@ -197,6 +176,29 @@ with abas[2]:
         </div>
     </div>
     """, unsafe_allow_html=True)
+
+    # === Atualização Semanal #1 ===
+    st.markdown(f"""
+    <div style="background-color:#1C1C1C; padding:15px; border-radius:10px; margin-bottom: 20px;">
+        <h4 style="color:#DC143C;">#1 - Atualização Semanal - 09/05/2025</h4>
+        <ul style="color:#FFFFFF;">
+            <li>Realizados testes nos principais componentes do carrinho (motor DC, ESP32 e ponte H), sem identificação de defeitos.</li>
+            <li>Conduzido estudo sobre softwares de modelagem 3D. Optou-se pela utilização do <b>Eagle</b> para o desenvolvimento do carrinho e do sistema EMG.</li>
+            <li>Modelo do site finalizado.</li>
+            <li>Proposta e cronograma revisados e atualizados conforme a devolutiva, já disponíveis no site.</li>
+            <li>Decisões sobre o projeto: Definido que será utilizado baterias 18650 (4.2v) para alimentação dos sistemas.</li>
+            <li>Simulação EMG em andamento.</li>
+        </ul>
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <!-- st.image("caminho/para/imagem_simulacao_emg.gif", width=200) -->
+            <img src="data:image/png;base64,{base64.b64encode(open('image/ESQUEMATICO_Semana1.JPG','rb').read()).decode('utf-8')}"
+                 style="width: 660px; height: 300px; border-radius: 10px; object-fit: cover;"
+                 alt="Exemplo atualização 2">
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # === Atualização Semanal #2 (Exemplos para alterar depois) ===
 
 # -------- RELATÓRIOS --------
 with abas[3]:
