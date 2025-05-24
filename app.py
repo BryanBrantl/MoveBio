@@ -101,7 +101,7 @@ with abas[1]:
           no robô, concentrando esforços na aquisição e interpretação dos sinais.
 
         **Funcionamento Básico**:
-        1. Eletrodos posicionados em músculos-alvo (bíceps direito e esquerdo).
+        1. Eletrodos posicionados em músculos-alvo (bíceps direito e esquerdo)
         2. Captação do sinal EMG e processamento para identificar ativação muscular.
         3. Tradução em comandos para mover o carrinho:
            - Ambos músculos ativados → carrinho anda para frente.
