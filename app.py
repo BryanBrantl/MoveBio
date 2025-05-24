@@ -173,7 +173,7 @@ with abas[2]:
         st.write("- Decisões sobre o projeto: definido que será utilizado baterias 18650 (4.2v) para alimentação dos sistemas.")
         st.write("- **Simulação EMG:**")
 
-        st.image("image/ESQUEMATICO_Semana1.jpg", caption="Imagem do esquemático EMG", use_column_width=True)
+        st.image("image/ESQUEMATICO_Semana1.JPG", caption="Imagem do esquemático EMG", use_column_width=True)
 
         st.markdown("</div>", unsafe_allow_html=True)
 
