@@ -9,7 +9,18 @@ abas = st.tabs(["Home", "BioMove", "Atualização Semanal", "Relatórios", "Cron
 
 # -------- HOME --------
 with abas[0]:
+    # Título principal
     st.markdown("""<h1>Home</h1>""", unsafe_allow_html=True)
+
+    # Descrição do site logo abaixo do título
+    st.markdown("""
+        <p style='font-size:18px;'>
+            Este site é dedicado às informações e atualizações do desenvolvimento do projeto <strong>BioMove</strong>.
+        </p>
+    """, unsafe_allow_html=True)
+
+    # Novo título para a seção de membros
+    st.markdown("""<h2>Membros</h2>""", unsafe_allow_html=True)
 
     # 👤 Perfis dos integrantes com imagens personalizadas
     colunas = st.columns(4)
