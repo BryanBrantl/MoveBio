@@ -171,9 +171,9 @@ with abas[2]:
         </ul>
         <div style="display: flex; justify-content: center; margin-top: 20px;">
             <!-- st.image("caminho/para/imagem_simulacao_emg.gif", width=200) -->
-            <img src="data:image/gif;base64,{base64.b64encode(open('image/gif3.gif','rb').read()).decode('utf-8')}"
-                 style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;"
-                 alt="GIF redondo">
+            <img src="data:image/png;base64,{base64.b64encode(open('image/ESQUEMATICO_Semana1.JPG','rb').read()).decode('utf-8')}"
+                 style="width: 1325px; height: 600px; border-radius: 10px; object-fit: cover;"
+                 alt="Exemplo atualização 2">
         </div>
     </div>
     """, unsafe_allow_html=True)
