@@ -48,7 +48,8 @@ with abas[0]:
 
 # -------- BIOMOVE --------
 with abas[1]:
-    
+    file_path = "image/gif3.gif"
+    file_path1 = "image/7.gif"
     
     with open(file_path, "rb") as f:
         data = f.read()
