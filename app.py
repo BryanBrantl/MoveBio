@@ -191,7 +191,7 @@ with abas[2]:
         </ul>
         <div style="display: flex; justify-content: center; margin-top: 20px;">
             <!-- st.image("caminho/para/imagem_exemplo_atualizacao2.png", width=200) -->
-            <img src="data:image/png;base64,{base64.b64encode(open('image/exemplo2.png','rb').read()).decode('utf-8')}"
+            <img src="data:image/png;base64,{base64.b64encode(open('image/foto_03.png','rb').read()).decode('utf-8')}"
                  style="width: 200px; height: 200px; border-radius: 10px; object-fit: cover;"
                  alt="Exemplo atualização 2">
         </div>
