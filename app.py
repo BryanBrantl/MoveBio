@@ -8,16 +8,21 @@ st.markdown("## BIOMOVE")
 abas = st.tabs(["Home", "BioMove", "Atualização Semanal", "Relatórios", "Cronograma"])
 
 # -------- HOME --------
-st.write("teste")
 with abas[0]:
     # Título principal
     st.markdown("""<h1>Home</h1>""", unsafe_allow_html=True)
-    
 
     # Descrição do site logo abaixo do título
     st.markdown("""
         <p style='font-size:18px;'>
             Este site é dedicado às informações e atualizações do desenvolvimento do projeto <strong>BioMove</strong>.
+        </p>
+    """, unsafe_allow_html=True)
+
+    # Texto adicional abaixo da descrição
+    st.markdown("""
+        <p style='font-size:16px; color:gray;'>
+            Abaixo você encontrará os integrantes do projeto, suas informações de contato e matrícula.
         </p>
     """, unsafe_allow_html=True)
 
@@ -50,15 +55,15 @@ with abas[0]:
 with abas[1]:
     file_path = "image/gif3.gif"
     file_path1 = "image/7.gif"
-    
+
     with open(file_path, "rb") as f:
         data = f.read()
         encoded_gif = base64.b64encode(data).decode("utf-8")
-    
+
     with open(file_path1, "rb") as f:
         data1 = f.read()
         encoded_gif1 = base64.b64encode(data1).decode("utf-8")
-    
+
     st.markdown(
         f"""
         <div style="display: flex; justify-content: center; gap: 40px;">
@@ -102,7 +107,6 @@ with abas[2]:
 
 # -------- RELATÓRIOS --------
 with abas[3]:
-
     st.markdown("### Proposta de projeto")
     st.markdown(f"""
     <p style="text-align: justify;">
@@ -110,11 +114,10 @@ with abas[3]:
         O documento reúne informações detalhadas sobre o escopo do projeto, sendo esta proposta já aprovada.
     </p>
     <p style="text-align: justify;"> 
-	Você pode acessar o documento completo clicando no botão abaixo:
+    Você pode acessar o documento completo clicando no botão abaixo:
     </p>
     """, unsafe_allow_html=True)
 
-    # Link bonito (exemplo de link)
     link_doc = "https://docs.google.com/document/d/1uJpoXcehrK1Lv2cPMxUtHkvSNNtmgnatSJdmxfzy8gc/edit?usp=sharing"
     st.markdown(f"""
         <div style='text-align: center; margin-top: 20px;'>
@@ -130,12 +133,13 @@ with abas[3]:
             </a>
         </div>
     """, unsafe_allow_html=True)
+
     st.markdown("""
-     	<br>
-	<p style= "text-align: center;">
-            (Para acessar utilize o e-mail institucional)
-        </p>
-	""",unsafe_allow_html=True)
+    <br>
+    <p style="text-align: center;">
+        (Para acessar utilize o e-mail institucional)
+    </p>
+    """, unsafe_allow_html=True)
 
 # -------- CRONOGRAMA --------
 with abas[4]:
@@ -162,4 +166,4 @@ with abas[4]:
                 Acessar Cronograma e Custos
             </a>
         </div> 
-	""", unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
