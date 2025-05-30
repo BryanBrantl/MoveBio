@@ -157,7 +157,7 @@ with abas[1]:
 
 # -------- ATUALIZAÇÃO SEMANAL --------
 with abas[2]:
-        # === Atualização Semanal #3 ===
+        # === Atualização Semanal #3  ===
     st.markdown(f"""
     <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
         <h4 style="color:#DC143C;">#3 - Atualização Semanal - 23/05/2025</h4>
