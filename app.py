@@ -73,7 +73,7 @@ with abas[1]:
         # st.image("caminho/para/imagem_problemática.png", width=150)
         st.markdown("<!-- Imagem ilustrativa da Problemática -->")
     with col2:
-        st.markdown("### 📋 Problemática e Objetivo")
+        st.markdown("### 1. Problemática e Objetivo")
         st.write("""
         O projeto **BioMove** surge para **melhorar a interação do paciente com a fisioterapia**, tornando-a
         mais motivadora e eficaz, com objetivo de acelerar o progresso de reabilitação. Muitos pacientes
@@ -91,7 +91,7 @@ with abas[1]:
     # 📑 Proposta e Escopo
     col3, col4 = st.columns([2, 1], gap="large")
     with col3:
-        st.markdown("### 📑 Proposta e Escopo")
+        st.markdown("### 2. Proposta e Escopo")
         st.write("""
         - O sistema **BioMove** utiliza **sensores EMG caseiros** (montados a partir de amplificadores de
           instrumentação e filtros analógicos) para captar sinais musculares do paciente.
@@ -125,8 +125,8 @@ with abas[1]:
         # st.image("caminho/para/imagem_cronograma.png", width=150)
      #   st.markdown("<!-- Imagem ilustrativa do Cronograma e das Tarefas -->")
     #with col6:
-        st.markdown("### ✅ Cronograma e Entregáveis")
-        st.write("""
+    st.markdown("### 3. Cronograma e Entregáveis")
+    st.write("""
         **Principais Entregáveis e Prazos**:
         1. **Plano de Projeto (Proposta)**: 11/04/2025
         2. **Blog do Projeto (Link Inicial)**: 11/04/2025
