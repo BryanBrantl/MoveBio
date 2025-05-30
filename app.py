@@ -115,16 +115,16 @@ with abas[1]:
         """)
     with col4:
         st.image("image/emg2.png", width=400)
-        st.markdown("<!-- Imagem ilustrativa da Proposta e Diagrama em Blocos -->")
+        st.markdown("<!-- Imagem ilustrativa da Proposta -->")
 
     st.markdown("---")
 
     # ✅ Cronograma e Entregáveis
-    col5, col6 = st.columns([1, 2], gap="large")
-    with col5:
+   # col5, col6 = st.columns([1, 2], gap="large")
+    #with col5:
         # st.image("caminho/para/imagem_cronograma.png", width=150)
-        st.markdown("<!-- Imagem ilustrativa do Cronograma e das Tarefas -->")
-    with col6:
+     #   st.markdown("<!-- Imagem ilustrativa do Cronograma e das Tarefas -->")
+    #with col6:
         st.markdown("### ✅ Cronograma e Entregáveis")
         st.write("""
         **Principais Entregáveis e Prazos**:
