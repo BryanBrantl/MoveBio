@@ -71,7 +71,7 @@ with abas[1]:
     col1, col2 = st.columns([1, 2], gap="large")
     with col1:
         # st.image("caminho/para/imagem_problemática.png", width=150)
-        st.markdown("<!-- Imagem ilustrativa da Problemática -->")
+        st.markdown("Imagem ilustrativa da Problemática")
     with col2:
         st.markdown("### 1. Problemática e Objetivo")
         st.write("""
@@ -115,7 +115,7 @@ with abas[1]:
         """)
     with col4:
         st.image("image/emg2.png", width=400)
-        st.markdown("<!-- Imagem ilustrativa da Proposta -->")
+        st.markdown("Imagem ilustrativa da Proposta")
 
     st.markdown("---")
 
@@ -123,7 +123,7 @@ with abas[1]:
     col5, col6 = st.columns([1, 2], gap="large")
     with col5:
         st.image("image/emg3.png", width=350)
-        st.markdown("<!-- Imagem ilustrativa das direções do carrinho -->")
+        st.markdown("Imagem ilustrativa das direções do carrinho")
     with col6:
         st.markdown("### 3. Cronograma e Entregáveis")
         st.write("""
