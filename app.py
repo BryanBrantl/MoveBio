@@ -122,9 +122,9 @@ with abas[1]:
     # ✅ Cronograma e Entregáveis
     col5, col6 = st.columns([1, 2], gap="large")
     with col5:
-        st.image("image/emg3.png", width=150)
+        st.image("image/emg3.png", width=350)
         st.markdown("<!-- Imagem ilustrativa das direções do carrinho -->")
-    #with col6:
+    with col6:
         st.markdown("### 3. Cronograma e Entregáveis")
         st.write("""
         **Principais Entregáveis e Prazos**:
