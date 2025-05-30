@@ -120,13 +120,13 @@ with abas[1]:
     st.markdown("---")
 
     # ✅ Cronograma e Entregáveis
-   # col5, col6 = st.columns([1, 2], gap="large")
-    #with col5:
-        # st.image("caminho/para/imagem_cronograma.png", width=150)
-     #   st.markdown("<!-- Imagem ilustrativa do Cronograma e das Tarefas -->")
+    col5, col6 = st.columns([1, 2], gap="large")
+    with col5:
+        st.image("image/emg3.png", width=150)
+        st.markdown("<!-- Imagem ilustrativa das direções do carrinho -->")
     #with col6:
-    st.markdown("### 3. Cronograma e Entregáveis")
-    st.write("""
+        st.markdown("### 3. Cronograma e Entregáveis")
+        st.write("""
         **Principais Entregáveis e Prazos**:
         1. **Plano de Projeto (Proposta)**: 11/04/2025
         2. **Blog do Projeto (Link Inicial)**: 11/04/2025
