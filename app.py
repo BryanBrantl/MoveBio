@@ -176,8 +176,7 @@ with abas[2]:
                  alt="Circuito montado">
         </div>
     """, unsafe_allow_html=True)
-
-        st.markdown("<div style='height:40px;'></div>", unsafe_allow_html=True)
+    st.markdown("<div style='height:40px;'></div>", unsafe_allow_html=True)
 
 
     # === Atualização Semanal #2 ===
