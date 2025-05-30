@@ -114,7 +114,7 @@ with abas[1]:
         - Módulo EMG (ESP32) → Capta, processa e envia sinais → Módulo Carrinho (ESP32) → Aciona motores DC.
         """)
     with col4:
-        st.image("image/emg2.png", width=450)
+        st.image("image/emg2.png", width=400)
         st.markdown("<!-- Imagem ilustrativa da Proposta e Diagrama em Blocos -->")
 
     st.markdown("---")
