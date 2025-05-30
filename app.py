@@ -174,7 +174,7 @@ with abas[2]:
             <img src="data:image/png;base64,{base64.b64encode(open('image/emg4.jpg','rb').read()).decode('utf-8')}"
                  style="width: 600px; height: 225px; border-radius: 10px; object-fit: cover;"
                  alt="Circuito montado">
-        </div>
+        </div> 
     """, unsafe_allow_html=True)
     st.markdown("<div style='height:40px;'></div>", unsafe_allow_html=True)
 
