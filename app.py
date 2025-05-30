@@ -70,8 +70,8 @@ with abas[1]:
     # 📋 Problemática e Objetivo
     col1, col2 = st.columns([1, 2], gap="large")
     with col1:
-        # st.image("caminho/para/imagem_problemática.png", width=150)
-        st.markdown("Imagem ilustrativa da Problemática")
+        st.image("image/emg1.png", width=300)
+        st.markdown("Ação de gamificação promovida no Instituto Albert Einstein")
     with col2:
         st.markdown("### 1. Problemática e Objetivo")
         st.write("""
