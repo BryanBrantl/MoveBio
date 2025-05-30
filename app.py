@@ -157,6 +157,29 @@ with abas[1]:
 
 # -------- ATUALIZAÇÃO SEMANAL --------
 with abas[2]:
+        # === Atualização Semanal #3 ===
+    st.markdown(f"""
+    <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
+        <h4 style="color:#DC143C;">#3 - Atualização Semanal - 23/05/2025</h4>
+        <ul style="color:#FFFFFF;">
+            <li>Finalizado a montagem do carrinho.</li>
+            <li>Adição de novos filtros no esquemático do EMG.</li>
+            <li>Montagem do circuito EMG em placa perfurada para melhorar os testes quando comparado a protoboard.</li>
+            <li>Filtro Notch não apresentou resultado esperado, levantado a hipótese de utilizar filtros digitais
+				para melhorar a performance.</li>
+            <li>Circuito montado em placa perfurada:</li>
+        </ul>
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <!-- st.image("caminho/para/imagem_exemplo_atualizacao2.png", width=200) -->
+            <img src="data:image/png;base64,{base64.b64encode(open('image/Protoboard.jpg','rb').read()).decode('utf-8')}"
+                 style="width: 600px; height: 225px; border-radius: 10px; object-fit: cover;"
+                 alt="Circuito montado">
+        </div>
+    """, unsafe_allow_html=True)
+
+        st.markdown("<div style='height:40px;'></div>", unsafe_allow_html=True)
+
+
     # === Atualização Semanal #2 ===
     st.markdown(f"""
     <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
