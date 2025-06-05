@@ -163,11 +163,10 @@ with abas[2]:
         <h4 style="color:#DC143C;">#4 - Atualização Semanal - 30/05/2025</h4>
         <ul style="color:#FFFFFF;">
             <li>
-	    <p>Nesta semana, avançamos na produção da placa de circuito impresso (PCI) para o nosso projeto. Reproduzimos o modelo utilizando novamente o filtro notch para testes. No entanto, enfrentamos alguns contratempos que impactaram o andamento do cronograma.</p>
-	    
-     	    <p>Durante a etapa de montagem e teste da placa, identificamos problemas relacionados ao roteamento do circuito e à soldagem de alguns componentes. Esses erros comprometeram o funcionamento esperado da PCI, impossibilitando a continuidade dos testes nesta fase.</p>
-     	    
-	    <p>Estamos trabalhando na correção do layout e no aprimoramento do processo de soldagem para evitar recorrência desses problemas nas próximas versões.</p> </li>
+	    	<p>Nesta semana, avançamos na produção da placa de circuito impresso (PCI) para o nosso projeto. Reproduzimos o modelo utilizando novamente o filtro notch para testes. No entanto, enfrentamos alguns contratempos que impactaram o andamento do cronograma.</p>
+     	    	<p>Durante a etapa de montagem e teste da placa, identificamos problemas relacionados ao roteamento do circuito e à soldagem de alguns componentes. Esses erros comprometeram o funcionamento esperado da PCI, impossibilitando a continuidade dos testes nesta fase.</p>
+	    	<p>Estamos trabalhando na correção do layout e no aprimoramento do processo de soldagem para evitar recorrência desses problemas nas próximas versões.</p> 
+     	    </li>
         </ul>
         <div style="display: flex; justify-content: center; margin-top: 20px;">
             <!-- st.image("caminho/para/imagem_exemplo_atualizacao2.png", width=200) -->
