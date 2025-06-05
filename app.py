@@ -157,6 +157,28 @@ with abas[1]:
 
 # -------- ATUALIZAÇÃO SEMANAL --------
 with abas[2]:
+        # === Atualização Semanal #4  ===
+    st.markdown(f"""
+    <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
+        <h4 style="color:#DC143C;">#4 - Atualização Semanal - 30/05/2025</h4>
+        <ul style="color:#FFFFFF;">
+            <li>Nesta semana, avançamos na produção da placa de circuito impresso (PCI) para o nosso projeto.
+	    Reproduzimos o modelo utilizando novamente o filtro notch para testes. No entanto, enfrentamos alguns
+     	    contratempos que impactaram o andamento do cronograma.
+	    Durante a etapa de montagem e teste da placa, identificamos problemas relacionados ao roteamento do circuito
+   	    e à soldagem de alguns componentes. Esses erros comprometeram o funcionamento esperado da PCI, impossibilitando
+	    a continuidade dos testes nesta fase. Estamos trabalhando na correção do layout e no aprimoramento do processo
+            de soldagem para evitar recorrência desses problemas nas próximas iterações. </li>
+        </ul>
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <!-- st.image("caminho/para/imagem_exemplo_atualizacao2.png", width=200) -->
+            <img src="data:image/png;base64,{base64.b64encode(open('image/emg4.jpg','rb').read()).decode('utf-8')}"
+                 style="width: 600px; height: 500px; border-radius: 10px; object-fit: cover;"
+                 alt="Circuito montado">
+        </div> 
+    """, unsafe_allow_html=True)
+    st.markdown("<div style='height:40px;'></div>", unsafe_allow_html=True)
+	
         # === Atualização Semanal #3  ===
     st.markdown(f"""
     <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
