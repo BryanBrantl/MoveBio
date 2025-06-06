@@ -159,9 +159,9 @@ with abas[1]:
 with abas[2]:
         # === Atualização Semanal #4  ===
 	# Lê o vídeo como bytes
-	video_path = "image/carrinhoandando.mp4"
-	with open(video_path, "rb") as f:
-	    video_bytes = f.read()
+    video_path = "image/carrinhoandando.mp4"
+    with open(video_path, "rb") as f:
+	video_bytes = f.read()
 	
 	# Cria um container para agrupar HTML e o vídeo
     with st.container():
