@@ -171,6 +171,7 @@ with abas[2]:
      	    	Durante a etapa de montagem e teste da placa, identificamos problemas relacionados ao roteamento do circuito e à soldagem de alguns componentes. Esses erros comprometeram o funcionamento esperado da PCI, impossibilitando a continuidade dos testes nesta fase.
 	    	Estamos trabalhando na correção do layout e no aprimoramento do processo de soldagem para evitar recorrência desses problemas nas próximas versões.
      	    </li>
+        </ul>
         <div style="display: flex; justify-content: center; margin-top: 20px;">
             <!-- st.image("caminho/para/imagem_exemplo_atualizacao2.png", width=200) -->
             <img src="data:image/png;base64,{base64.b64encode(open('image/emg5.jpg','rb').read()).decode('utf-8')}"
