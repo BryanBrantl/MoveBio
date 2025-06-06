@@ -188,7 +188,7 @@ with abas[2]:
         	st.video(video_bytes)
 
     # Fecha a div do HTML
-    	st.markdown("</div></div>", unsafe_allow_html=True)
+    	st.markdown("</div>", unsafe_allow_html=True)
 
     st.markdown("<div style='height:40px;'></div>", unsafe_allow_html=True)
 	
