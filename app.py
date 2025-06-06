@@ -181,16 +181,19 @@ with abas[2]:
 	<ul style="color:#FFFFFF;">
             <li>Como informado na semana passada, a montagem do carrinho foi finalizada. Nesta semana, a equipe desenvolveu o software que permite controlar o carrinho por meio de um joystick no celular, utilizando conexão via Bluetooth.</li>
         </ul>
-        <div style="display: flex; justify-content: center; margin-top: 20px;">
     	""", unsafe_allow_html=True)
-    
-    # Centraliza o vídeo com colunas (tamanho adaptativo) 
-    	col1, col2, col3 = st.columns([1, 2, 1])
-    	with col2:
-        	st.video(video_bytes)
-
-    # Fecha a div do HTML
-    	st.markdown("</div>", unsafe_allow_html=True)
+    with st.container():
+	    st.markdown("""
+	    <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
+	    """, unsafe_allow_html=True)
+	
+	    col1, col2, col3 = st.columns([1, 2, 1])
+	    with col2:
+	        st.video(video_bytes)
+	
+	    st.markdown("""
+	    </div>
+	    """, unsafe_allow_html=True)
 
     st.markdown("<div style='height:40px;'></div>", unsafe_allow_html=True)
 	
