@@ -161,6 +161,7 @@ with abas[2]:
     video_path = "image/carrinhoandando.mp4"
     with open(video_path, "rb") as f:
     	video_bytes = f.read()
+	video_base64 = base64.b64encode(video_bytes).decode()
     with st.container():
     	st.markdown(f"""
     <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
@@ -181,6 +182,13 @@ with abas[2]:
 	<ul style="color:#FFFFFF;">
             <li>Como informado na semana passada, a montagem do carrinho foi finalizada. Nesta semana, a equipe desenvolveu o software que permite controlar o carrinho por meio de um joystick no celular, utilizando conexão via Bluetooth.</li>
         </ul>
+	<div style="display: flex; justify-content: center; margin-top: 20px;">
+        	<video width="600" height="400" controls style="border-radius: 10px;">
+                	<source src="data:video/mp4;base64,{video_base64}" type="video/mp4">
+                    	Seu navegador não suporta a tag de vídeo.
+                </video>
+            </div>
+        </div>
     	""", unsafe_allow_html=True)
 	    col1, col2, col3 = st.columns([1, 2, 1])
 	    with col2:
