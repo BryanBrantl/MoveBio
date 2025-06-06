@@ -161,7 +161,7 @@ with abas[2]:
     video_path = "image/carrinhoandando.mp4"
     with open(video_path, "rb") as f:
     	video_bytes = f.read()
-	video_base64 = base64.b64encode(video_bytes).decode()
+    	video_base64 = base64.b64encode(video_bytes).decode()
     with st.container():
     	st.markdown(f"""
     <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
