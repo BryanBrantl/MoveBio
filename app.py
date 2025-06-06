@@ -222,7 +222,7 @@ with abas[2]:
     st.markdown("<div style='height:40px;'></div>", unsafe_allow_html=True)
 
 
-    # === Atualização Semanal #2 ===
+    # === Atualização Semanal #2 === 
     st.markdown(f"""
     <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
         <h4 style="color:#DC143C;">#2 - Atualização Semanal - 16/05/2025</h4>
