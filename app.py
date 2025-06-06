@@ -182,7 +182,7 @@ with abas[2]:
         </ul>
     	""", unsafe_allow_html=True)
     
-    # Centraliza o vídeo com colunas (tamanho adaptativo)
+    # Centraliza o vídeo com colunas (tamanho adaptativo) 
     	col1, col2, col3 = st.columns([1, 2, 1])
     	with col2:
         	st.video(video_bytes)
