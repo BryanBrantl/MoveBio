@@ -190,12 +190,10 @@ with abas[2]:
             </div>
         </div>
     	""", unsafe_allow_html=True)
-	    col1, col2, col3 = st.columns([1, 2, 1])
-	    with col2:
-	        st.video(video_bytes)
-	    st.markdown("""
-	    </div>
-	    """, unsafe_allow_html=True)
+    	col1, col2, col3 = st.columns([1, 2, 1])
+    	with col2:
+    		st.video(video_bytes)
+    	st.markdown("""</div>""", unsafe_allow_html=True)
 
     st.markdown("<div style='height:40px;'></div>", unsafe_allow_html=True)
 	
