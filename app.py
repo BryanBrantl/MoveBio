@@ -164,8 +164,8 @@ with abas[2]:
 	    video_bytes = f.read()
 	
 	# Cria um container para agrupar HTML e o vídeo
-	with st.container():
-	    st.markdown(f"""
+    with st.container():
+   	st.markdown(f"""
 	    <div style="background-color:#1C1C1C; padding:15px; border-radius:10px;">
 	        <h4 style="color:#DC143C;">#4 - Atualização Semanal - 30/05/2025</h4>
 	        <ul style="color:#FFFFFF;">
@@ -182,11 +182,11 @@ with abas[2]:
 	    """, unsafe_allow_html=True)
 	
 	    # Aqui dentro do mesmo container, renderiza o vídeo
-	    st.video(video_bytes)
+   	st.video(video_bytes)
 	
 	    # Fecha a div do HTML
-	    st.markdown("</div></div>", unsafe_allow_html=True)
-	st.markdown("<div style='height:40px;'></div>", unsafe_allow_html=True)
+    	st.markdown("</div></div>", unsafe_allow_html=True)
+    st.markdown("<div style='height:40px;'></div>", unsafe_allow_html=True)
 	
         # === Atualização Semanal #3  ===
     st.markdown(f"""
