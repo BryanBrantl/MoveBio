@@ -6,7 +6,7 @@ from pathlib import Path
 
 st.set_page_config(page_title="BIOMOVE", layout="wide")
 
-# CSS para os botões com hover (borda e texto mudam, fundo continua)
+# CSS para os botões com hover (borda e texto mudam, fundo continua) 
 st.markdown("""
     <style>
         .my-button {
