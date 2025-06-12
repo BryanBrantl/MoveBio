@@ -178,6 +178,12 @@ with abas[2]:
             <img src="data:image/png;base64,{base64.b64encode(open('image/emg5.jpg','rb').read()).decode('utf-8')}"
                  style="width: 600px; height: 500px; border-radius: 10px; object-fit: cover;"
                  alt="Circuito montado">
+	<div style="display: flex; justify-content: center; margin-top: 20px;">
+        	<video width="600" height="400" controls style="border-radius: 10px;">
+                	<source src="data:video/mp4;base64,{video_base64}" type="video/mp4">
+                    	Seu navegador não suporta a tag de vídeo.
+                </video>
+            </div>
         </div>
 	<ul style="color:#FFFFFF;">
             <li>Como informado na semana passada, a montagem do carrinho foi finalizada. Nesta semana, a equipe desenvolveu o software que permite controlar o carrinho por meio de um joystick no celular, utilizando conexão via Bluetooth.</li>
