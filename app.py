@@ -56,8 +56,8 @@ selected = option_menu(
     }
 )
 
-
-############################################ IMAGENS ############################################
+ 
+############################################ IMAGENS #################### ########################
 # Usando um bloco try-except para evitar que o app quebre se uma imagem não for encontrada
 try:
     img1 = Image.open("image1/foto_01.png")
