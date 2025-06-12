@@ -29,7 +29,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Função para converter uma imagem local para Base64 (usada em outras partes, mantida por segurança)
+# Função para converter uma imagem local para Base64 (usada em outras partes, mantida por segurança) .
 def img_to_base64(img_path):
     try:
         img_bytes = Path(img_path).read_bytes()
