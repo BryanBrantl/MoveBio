@@ -38,7 +38,7 @@ with abas[0]:
         "image/foto_04.png"
     ]
     nomes = [
-        ("Bryan Alexandre de Lima Brantl", "2414139", "brantl@alunos.utfpr.edu.br", "(41) 99278-39299"),
+        ("Bryan Alexandre de Lima Brantl", "2414139", "brantl@alunos.utfpr.edu.br", "(41) 99278-392999"),
         ("João Roberto Klassen",         "2414155", "joaoklassen@alunos.utfpr.edu.br", "41 99742-4536"),
         ("Leonardo Amancio",             "2402580", "leonardoamancio@alunos.utfpr.edu.br", "41 99805-1279"),
         ("Luiz Prado",                   "2402629", "luizoliveira.2002@alunos.utfpr.edu.br", "41 99815-6532")
