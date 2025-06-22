@@ -105,7 +105,7 @@ if selected == "Home" and all([img1, img2, img3, img4]):
         st.markdown(
             """
             <div style='text-align: center'>
-                <strong><span style='color: #008080;'>Luiz Prado</span></strong><br><br>
+                <strong><span style='color: #008080;'>Luiz Eduardo Prado de Oliveira</span></strong><br><br>
                 RA: 2402629<br>
                 E-mail: luizoliveira.2002@alunos.utfpr.edu.br<br>
                 Contato: (41) 99815-6532
