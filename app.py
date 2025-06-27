@@ -183,8 +183,21 @@ elif selected == "BioMove" and all([img5, img6, img7]):
 ##########################   ATUALIZAÇÃO SEMANAL    ########################################
 
 elif selected == "Atualização Semanal":
-
-	##########################################
+	####################################### ENTREGA SOFTWARE ############################
+	st.markdown(
+	    """
+	    <hr style="border: 2px solid #008080; border-radius: 2px;">
+	    """,
+	    unsafe_allow_html=True
+	)
+	st.markdown("<h1 style='text-align: center; color: #008080;'>ENTREGA SOFTWARE - 27/06</h1>", unsafe_allow_html=True)
+	st.markdown(
+	    """
+	    <hr style="border: 2px solid #008080; border-radius: 2px;">
+	    """,
+	    unsafe_allow_html=True
+	)
+	####################################### entrega e validação ############################
 	st.markdown(
 	    """
 	    <hr style="border: 2px solid #008080; border-radius: 2px;">
@@ -198,7 +211,7 @@ elif selected == "Atualização Semanal":
 	    """,
 	    unsafe_allow_html=True
 	)
-	########################################
+	#######################################################################################
 	A0_col1, A0_col2, A0_col3 = st.columns([1, 0.05, 3])
 	with A0_col1:
 		st.image(img11, caption="Trecho do vídeo - Circuito EMG", use_container_width=True)
