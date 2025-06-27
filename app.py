@@ -6,7 +6,7 @@ from pathlib import Path
 
 st.set_page_config(page_title="BIOMOVE", layout="wide")
 
-########################################################### Título principal ###########################################################
+########################################################### Título principal ##########################################################
 st.markdown("<h1 style='color:white;'>BIOMOVE</h1>", unsafe_allow_html=True)
 
 # Menu horizontal com abas
