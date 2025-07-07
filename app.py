@@ -254,6 +254,31 @@ elif selected == "Atualização Semanal":
 	        </div>
 	    """, unsafe_allow_html=True)
 	st.divider()
+	
+	st.markdown("""
+	    <h3>Integração do Circuito Clamper</h3>
+	    <div style='text-align: justify;'>
+	        Durante a última etapa do projeto, foi integrado ao sistema o <b>Circuito Clamper</b>, com o objetivo de adicionar um <i>offset</i> ao sinal EMG, convertendo-o em um sinal de corrente contínua (DC).<br><br>
+	        Essa modificação facilita o processamento digital do sinal, permitindo que o microcontrolador interprete corretamente os picos de ativação muscular.
+	    </div>
+	""", unsafe_allow_html=True)
+	st.divider()	
+	st.markdown("""
+	    <h3>Comunicação entre Módulos ESP32</h3>
+	    <div style='text-align: justify;'>
+	        Foi implementado o sistema de comunicação entre os dois módulos <b>ESP32</b> utilizados no projeto. A troca de dados ocorre de forma eficiente por meio da comunicação serial utilizando o protocolo <b>ESP-NOW</b>.<br><br>
+	        Esse protocolo permite baixa latência e comunicação direta entre os dispositivos, sem a necessidade de um roteador Wi-Fi intermediário.
+	    </div>
+	""", unsafe_allow_html=True)
+	st.divider()
+	st.markdown("""
+	    <h3>Mecânica do Projeto</h3>
+	    <div style='text-align: justify;'>
+	        A parte mecânica deste projeto foi planejada de forma simples e funcional. Inicialmente, focou-se no funcionamento básico do carrinho, garantindo que ele respondesse adequadamente aos sinais EMG recebidos.<br><br>
+	        Na etapa final, foi desenvolvido um compartimento físico para acomodar e proteger o circuito eletrônico, incluindo o <b>ESP32</b>, a fonte de alimentação e demais componentes, assegurando praticidade e organização durante o uso.
+	    </div>
+	""", unsafe_allow_html=True)	
+	st.divider()
 	####################################### entrega e validação ############################
 	st.markdown(
 	    """
