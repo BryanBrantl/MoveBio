@@ -253,7 +253,7 @@ elif selected == "Atualização Semanal":
 	            Uma vez conectado, ele interpreta o tipo de sinal recebido para decidir a ação a ser tomada: mover para a esquerda, direita, avançar ou parar. Essa decisão é baseada nos dados recebidos do módulo EMG.
 	        </div>
 	    """, unsafe_allow_html=True)
-		st.divider()
+	st.divider()
 	####################################### entrega e validação ############################
 	st.markdown(
 	    """
