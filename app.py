@@ -1,4 +1,4 @@
-import streamlit as st
+ import streamlit as st
 from streamlit_option_menu import option_menu
 from PIL import Image
 import base64
@@ -45,7 +45,13 @@ try:
     img15 = Image.open("imagem/ESQUEMATICO_Semana1.jpg")	
     img16 = Image.open("imagem/Protoboard.jpg")
     img17 = Image.open("imagem/Osciloscopio_Protoboard.jpg")	
-    img18 = Image.open("imagem/Placa_Perfurada.jpg")	
+    img18 = Image.open("imagem/Placa_Perfurada.jpg")
+    
+    img19 = Image.open("imagem/EMG1.jpg")
+    img20 = Image.open("imagem/EMG2.jpg")
+    img21 = Image.open("imagem/EMG3.jpg")
+    img22 = Image.open("imagem/Notch_EMG.pbg")
+    img23 = Image.open("imagem/ruido_EMG.png")
 except FileNotFoundError:
     st.error("Uma ou mais imagens não foram encontradas. Verifique os caminhos dos arquivos.")
     # Atribui None para evitar mais erros
@@ -211,6 +217,26 @@ elif selected == "Atualização Semanal":
 	    """,
 	    unsafe_allow_html=True
 	)
+
+
+	#
+	st.markdown("""
+	    <div style='text-align: justify;'>
+	        <h3>Statecharts:</h3>
+	        <ul>
+	            <li>Para a entrega dos softwares do projeto, foram elaborados os seguintes <i>statecharts</i>.</li>
+	        </ul>
+	    </div>
+	""", unsafe_allow_html=True)
+	
+	col1, col2 = st.columns(2)
+	with col1:
+	    st.image(img19, caption="STATECHART: SINAL EMG", use_container_width=True)
+	with col2:
+	    st.image(img20, caption="Diagrama 2", use_container_width=True)
+
+	
+
 	####################################### entrega e validação ############################
 	st.markdown(
 	    """
