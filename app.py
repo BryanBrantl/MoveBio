@@ -50,7 +50,7 @@ try:
     img19 = Image.open("imagem/EMG1.jpg")
     img20 = Image.open("imagem/EMG2.jpg")
     img21 = Image.open("imagem/EMG3.jpg")
-    img22 = Image.open("imagem/Notch_EMG.pbg")
+    img22 = Image.open("imagem/Notch_EMG.png")
     img23 = Image.open("imagem/ruido_EMG.png")
 except FileNotFoundError:
     st.error("Uma ou mais imagens não foram encontradas. Verifique os caminhos dos arquivos.")
