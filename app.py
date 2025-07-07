@@ -217,11 +217,7 @@ elif selected == "Atualização Semanal":
 	    """,
 	    unsafe_allow_html=True
 	)
-
-
 	#
- 
-	
 	col1, col2 = st.columns(2)
 	with col1:
 	    st.image(img19, caption="STATECHART: SINAL EMG", width = 300)
@@ -234,9 +230,29 @@ elif selected == "Atualização Semanal":
 		    </div>
 		""", unsafe_allow_html=True)
 		
-
-	
-
+	col3, col4 = st.columns(2)
+	with col3:
+	    st.image(img20, caption="STATECHART: MOVIMENTOS", width=300)
+	with col4:
+	    st.markdown("""
+	        <h3>Statechart dos Movimentos</h3>
+	        <div style='text-align: justify;'>
+	            Representa as possíveis movimentações do sistema e as transições entre elas, de acordo com os comandos detectados.<br><br>
+	            Os principais estados envolvem deslocamentos para frente, para os lados ou parada total, dependendo do tipo de estímulo recebido do sistema de leitura EMG.
+	        </div>
+	    """, unsafe_allow_html=True)
+		
+	col5, col6 = st.columns(2)
+	with col5:
+	    st.image(img21, caption="STATECHART: COMPORTAMENTO DO CARRINHO", width=300)
+	with col6:
+	    st.markdown("""
+	        <h3>Statechart do Carrinho</h3>
+	        <div style='text-align: justify;'>
+	            Mostra o comportamento do carrinho ao receber os comandos. Após a inicialização, o carrinho permanece parado até que seja estabelecida a conexão com o sistema de leitura EMG.<br><br>
+	            Uma vez conectado, ele interpreta o tipo de sinal recebido para decidir a ação a ser tomada: mover para a esquerda, direita, avançar ou parar. Essa decisão é baseada nos dados recebidos do módulo EMG.
+	        </div>
+	    """, unsafe_allow_html=True)
 	####################################### entrega e validação ############################
 	st.markdown(
 	    """
