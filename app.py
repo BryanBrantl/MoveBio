@@ -220,20 +220,14 @@ elif selected == "Atualização Semanal":
 
 
 	#
-	st.markdown("""
-	    <div style='text-align: justify;'>
-	        <h3>Statecharts:</h3>
-	        <ul>
-	            <li>Para a entrega dos softwares do projeto, foram elaborados os seguintes <i>statecharts</i>.</li>
-	        </ul>
-	    </div>
-	""", unsafe_allow_html=True)
+ 
 	
 	col1, col2 = st.columns(2)
 	with col1:
 	    st.image(img19, caption="STATECHART: SINAL EMG", use_container_width=True)
 	with col2:
-	    st.image(img20, caption="Diagrama 2", use_container_width=True)
+	   st.subheader("STATECHART DO SISTEMA EMG")
+		
 
 	
 
