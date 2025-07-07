@@ -226,7 +226,13 @@ elif selected == "Atualização Semanal":
 	with col1:
 	    st.image(img19, caption="STATECHART: SINAL EMG", use_container_width=True)
 	with col2:
-	   st.subheader("STATECHART DO SISTEMA EMG")
+		st.markdown("""
+		    <h3>Statechart do Sistema EMG</h3>
+		    <div style='text-align: justify;'>
+		        O sistema inicia realizando a leitura dos sinais dos canais <b>A</b> e <b>B</b>. Em seguida, aplica-se um filtro <i>notch</i> para remoção do ruído de 60 Hz. Após essa etapa, o sistema verifica se há conexão disponível com o carrinho.<br><br>
+		        Caso a conexão esteja estabelecida, os dados são processados e convertidos em comandos apropriados, que são então enviados ao carrinho para controle dos movimentos.
+		    </div>
+		""", unsafe_allow_html=True)
 		
 
 	
