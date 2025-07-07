@@ -224,7 +224,7 @@ elif selected == "Atualização Semanal":
 	
 	col1, col2 = st.columns(2)
 	with col1:
-	    st.image(img19, caption="STATECHART: SINAL EMG", use_container_width=True)
+	    st.image(img19, caption="STATECHART: SINAL EMG", width = 300)
 	with col2:
 		st.markdown("""
 		    <h3>Statechart do Sistema EMG</h3>
