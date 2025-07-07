@@ -244,7 +244,7 @@ elif selected == "Atualização Semanal":
 		
 	col5, col6 = st.columns(2)
 	with col5:
-	    st.image(img21, caption="STATECHART: COMPORTAMENTO DO CARRINHO", width=500)
+	    st.image(img21, caption="STATECHART: COMPORTAMENTO DO CARRINHO", width=800)
 	with col6:
 	    st.markdown("""
 	        <h3>Statechart do Carrinho</h3>
