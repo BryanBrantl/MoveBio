@@ -183,6 +183,20 @@ elif selected == "BioMove" and all([img5, img6, img7]):
 ##########################   ATUALIZAÇÃO SEMANAL    ########################################
 
 elif selected == "Atualização Semanal":
+	####################################### ENTREGA INTEGRAÇÃO ############################
+	st.markdown(
+	    """
+	    <hr style="border: 2px solid #008080; border-radius: 2px;">
+	    """,
+	    unsafe_allow_html=True
+	)
+	st.markdown("<h1 style='text-align: center; color: #008080;'> INTEGRAÇÃO - 07/07 </h1>", unsafe_allow_html=True)
+	st.markdown(
+	    """
+	    <hr style="border: 2px solid #008080; border-radius: 2px;">
+	    """,
+	    unsafe_allow_html=True
+	)
 	####################################### ENTREGA SOFTWARE ############################
 	st.markdown(
 	    """
