@@ -220,7 +220,7 @@ elif selected == "Atualização Semanal":
 	#
 	col1, col2 = st.columns(2)
 	with col1:
-	    st.image(img19, caption="STATECHART: SINAL EMG", width = 300)
+	    st.image(img19, caption="STATECHART: SINAL EMG", use_container_width=True)
 	with col2:
 		st.markdown("""
 		    <h3>Statechart do Sistema EMG</h3>
@@ -229,10 +229,10 @@ elif selected == "Atualização Semanal":
 		        Caso a conexão esteja estabelecida, os dados são processados e convertidos em comandos apropriados, que são então enviados ao carrinho para controle dos movimentos.
 		    </div>
 		""", unsafe_allow_html=True)
-		
+	st.divider()	
 	col3, col4 = st.columns(2)
 	with col3:
-	    st.image(img20, caption="STATECHART: MOVIMENTOS", width=300)
+	    st.image(img20, caption="STATECHART: MOVIMENTOS",use_container_width=True)
 	with col4:
 	    st.markdown("""
 	        <h3>Statechart dos Movimentos</h3>
@@ -241,10 +241,10 @@ elif selected == "Atualização Semanal":
 	            Os principais estados envolvem deslocamentos para frente, para os lados ou parada total, dependendo do tipo de estímulo recebido do sistema de leitura EMG.
 	        </div>
 	    """, unsafe_allow_html=True)
-		
+	st.divider()	
 	col5, col6 = st.columns(2)
 	with col5:
-	    st.image(img21, caption="STATECHART: COMPORTAMENTO DO CARRINHO", width=800)
+	    st.image(img21, caption="STATECHART: COMPORTAMENTO DO CARRINHO",use_container_width=True)
 	with col6:
 	    st.markdown("""
 	        <h3>Statechart do Carrinho</h3>
@@ -253,6 +253,7 @@ elif selected == "Atualização Semanal":
 	            Uma vez conectado, ele interpreta o tipo de sinal recebido para decidir a ação a ser tomada: mover para a esquerda, direita, avançar ou parar. Essa decisão é baseada nos dados recebidos do módulo EMG.
 	        </div>
 	    """, unsafe_allow_html=True)
+		st.divider()
 	####################################### entrega e validação ############################
 	st.markdown(
 	    """
