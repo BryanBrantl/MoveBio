@@ -72,7 +72,7 @@ cronograma_url = "https://docs.google.com/spreadsheets/d/1Fb5_otX8z50tuy9RbcGGC8
 if selected == "Home" and all([img1, img2, img3, img4]):
     st.markdown("""
     <iframe width="360" height="203" 
-    src="https://www.youtube.com/watch?v=MNt9wBUUIjA" 
+    src="https://www.youtube.com/embed/MNt9wBUUIjA" 
     title="YouTube video" frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen></iframe>
