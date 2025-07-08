@@ -52,6 +52,9 @@ try:
     img21 = Image.open("imagem/EMG3.jpg")
     img22 = Image.open("imagem/Notch_EMG.png")
     img23 = Image.open("imagem/ruido_EMG.png")
+	
+    img24 = Image.open("imagem/Caixa.jpg")	
+    img25 = Image.open("imagem/carrinho_final.jpg")	
 except FileNotFoundError:
     st.error("Uma ou mais imagens não foram encontradas. Verifique os caminhos dos arquivos.")
     # Atribui None para evitar mais erros
@@ -226,7 +229,10 @@ elif selected == "Atualização Semanal":
 	        A parte mecânica deste projeto foi planejada de forma simples e funcional. Inicialmente, focou-se no funcionamento básico do carrinho, garantindo que ele respondesse adequadamente aos sinais EMG recebidos.<br><br>
 	        Na etapa final, foi desenvolvido um compartimento físico para acomodar e proteger o circuito eletrônico, incluindo o <b>ESP32</b>, a fonte de alimentação e demais componentes, assegurando praticidade e organização durante o uso.
 	    </div>
-	""", unsafe_allow_html=True)	
+	""", unsafe_allow_html=True)
+	
+	st.image(img23, caption="CAIXA FEITA EM IMPRESSÃO 3D",use_container_width=True)
+	st.image(img24, caption="CARRINHO",use_container_width=True)
 	st.divider()
 	####################################### ENTREGA SOFTWARE ############################
 	st.markdown(
