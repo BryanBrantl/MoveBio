@@ -70,7 +70,14 @@ cronograma_url = "https://docs.google.com/spreadsheets/d/1Fb5_otX8z50tuy9RbcGGC8
 ############################################ Conteúdo de acordo com o menu selecionado ############################################
 ################################################################################################   HOME    #################################
 if selected == "Home" and all([img1, img2, img3, img4]):
-    st.video("https://www.youtube.com/watch?v=TexMQ9vZat4&list=PLyvCfjQOMx6EXEF0L5veajHFKlPFGlaaP&index=1")	
+	st.markdown("""
+	<iframe width="360" height="203" 
+	src="https://www.youtube.com/embed/TexMQ9vZat4" 
+	title="YouTube video" frameborder="0" 
+	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+	allowfullscreen></iframe>
+	""", unsafe_allow_html=True)
+
     st.markdown("<h1 style='text-align: center; color: #008080 ;'>MEMBROS</h1>", unsafe_allow_html=True)
     st.write("") # Espaço
 
