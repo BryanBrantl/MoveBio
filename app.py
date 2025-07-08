@@ -204,6 +204,43 @@ elif selected == "Atualização Semanal":
 	####################################### ENTREGA INTEGRAÇÃO ############################
 	st.markdown(
 	    """
+	    <style>
+	    .styled-container {
+	        background-color: #f9f9f9;
+	        padding: 30px;
+	        border-radius: 10px;
+	        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+	        text-align: center;
+	        margin-top: 20px;
+	    }
+	    .styled-container h1 {
+	        color: #008080;
+	        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	        font-size: 40px;
+	        margin-bottom: 20px;
+	    }
+	    .styled-divider {
+	        border: none;
+	        height: 3px;
+	        width: 60%;
+	        margin: 20px auto;
+	        background: linear-gradient(90deg, #008080, #20b2aa);
+	        border-radius: 2px;
+	    }
+	    </style>
+	
+	    <div class="styled-container">
+	        <hr class="styled-divider">
+	        <h1>INTEGRAÇÃO - 04/06</h1>
+	        <hr class="styled-divider">
+	    </div>
+	    """,
+	    unsafe_allow_html=True
+	)
+	st.write("") # Espaço
+	st.divider()
+	st.markdown(
+	    """
 	    <hr style="border: 2px solid #008080; border-radius: 2px;">
 	    """,
 	    unsafe_allow_html=True
