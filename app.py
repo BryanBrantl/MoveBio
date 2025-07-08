@@ -228,8 +228,11 @@ elif selected == "Atualização Semanal":
 	st.markdown("""
 	    <h3>Mecânica do Projeto</h3>
 	    <div style='text-align: justify;'>
-	        A parte mecânica deste projeto foi planejada de forma simples e funcional. Inicialmente, priorizou-se o funcionamento básico do carrinho, garantindo que ele respondesse adequadamente aos sinais EMG recebidos.<br><br>
-	        Na etapa seguinte, foi desenvolvido e impresso um compartimento físico para acomodar e proteger o circuito eletrônico, incluindo o <b>ESP32</b>, a fonte de alimentação e os demais componentes, assegurando praticidade e organização durante o uso.
+     		A parte mecânica deste projeto foi planejada de forma simples e funcional. <br>
+       		<ul>
+			<li>Finalizado o funcionamento básico do carrinho, garantindo que ele respondesse adequadamente aos sinais EMG recebidos.<br>
+	        	<li>Foi desenvolvido e impresso um compartimento físico para acomodar e proteger o circuito eletrônico, incluindo o <b>ESP32</b>, a fonte de alimentação e os demais componentes, assegurando praticidade e organização durante o uso.
+	 	</ul>
 	    </div>
 	""", unsafe_allow_html=True)
 	st.write("") # Espaço
