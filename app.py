@@ -54,7 +54,8 @@ try:
     img23 = Image.open("imagem/ruido_EMG.png")
 	
     img24 = Image.open("imagem/Caixa.jpg")	
-    img25 = Image.open("imagem/carrinho_final.jpg")	
+    img25_r = Image.open("imagem/carrinho_final.jpg")
+    img25 = img25_r.rotate(-90, expand=True)	
 except FileNotFoundError:
     st.error("Uma ou mais imagens não foram encontradas. Verifique os caminhos dos arquivos.")
     # Atribui None para evitar mais erros
