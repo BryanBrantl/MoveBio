@@ -206,15 +206,15 @@ elif selected == "Atualização Semanal":
 	    """
 	    <style>
 	    .styled-container {
-	        background-color: #f9f9f9;
+	        background-color: #1e1e1e;
 	        padding: 30px;
 	        border-radius: 10px;
-	        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+	        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
 	        text-align: center;
 	        margin-top: 20px;
 	    }
 	    .styled-container h1 {
-	        color: #008080;
+	        color: #00cccc;
 	        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	        font-size: 40px;
 	        margin-bottom: 20px;
@@ -224,7 +224,7 @@ elif selected == "Atualização Semanal":
 	        height: 3px;
 	        width: 60%;
 	        margin: 20px auto;
-	        background: linear-gradient(90deg, #008080, #20b2aa);
+	        background: linear-gradient(90deg, #00cccc, #007777);
 	        border-radius: 2px;
 	    }
 	    </style>
