@@ -221,14 +221,15 @@ elif selected == "Atualização Semanal":
 	    <div style='text-align: justify;'>
 	        Foi implementado o sistema de comunicação entre os dois módulos <b>ESP32</b> utilizados no projeto. A troca de dados ocorre de forma eficiente por meio da comunicação serial utilizando o protocolo <b>ESP-NOW</b>.<br><br>
 	        Esse protocolo permite baixa latência e comunicação direta entre os dispositivos, sem a necessidade de um roteador Wi-Fi intermediário.
+	 
 	    </div>
 	""", unsafe_allow_html=True)
 	st.divider()
 	st.markdown("""
 	    <h3>Mecânica do Projeto</h3>
 	    <div style='text-align: justify;'>
-	        A parte mecânica deste projeto foi planejada de forma simples e funcional. Inicialmente, focou-se no funcionamento básico do carrinho, garantindo que ele respondesse adequadamente aos sinais EMG recebidos.<br><br>
-	        Na etapa final, foi desenvolvido um compartimento físico para acomodar e proteger o circuito eletrônico, incluindo o <b>ESP32</b>, a fonte de alimentação e demais componentes, assegurando praticidade e organização durante o uso.
+	        A parte mecânica deste projeto foi planejada de forma simples e funcional. Inicialmente, priorizou-se o funcionamento básico do carrinho, garantindo que ele respondesse adequadamente aos sinais EMG recebidos.<br><br>
+	        Na etapa seguinte, foi desenvolvido e impresso um compartimento físico para acomodar e proteger o circuito eletrônico, incluindo o <b>ESP32</b>, a fonte de alimentação e os demais componentes, assegurando praticidade e organização durante o uso.
 	    </div>
 	""", unsafe_allow_html=True)
 	st.write("") # Espaço
