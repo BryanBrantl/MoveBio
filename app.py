@@ -194,19 +194,19 @@ elif selected == "BioMove" and all([img5, img6, img7]):
 
 elif selected == "Atualização Semanal":
 	####################################### ENTREGA INTEGRAÇÃO ############################
-	st.markdown(
-	    """
-	    <hr style="border: 2px solid #008080; border-radius: 2px;">
-	    """,
-	    unsafe_allow_html=True
-	)
-	st.markdown("<h1 style='text-align: center; color: #008080;'> INTEGRAÇÃO - 07/07 </h1>", unsafe_allow_html=True)
-	st.markdown(
-	    """
-	    <hr style="border: 2px solid #008080; border-radius: 2px;">
-	    """,
-	    unsafe_allow_html=True
-	)
+	st.markdown("""
+	<div style='text-align: justify; font-size: 16px;'>
+	    <span style='color: #008080; font-weight: bold;'>OBS:</span> 
+	    O funcionamento desta entrega está disponível na página 
+	    <span style='color: #008080; font-weight: bold;'>HOME</span>, com o projeto já testado em sua totalidade, integrando as etapas de 
+	    <span style='color: #008080; font-weight: bold;'>MECÂNICA</span>, 
+	    <span style='color: #008080; font-weight: bold;'>SOFTWARE</span> e 
+	    <span style='color: #008080; font-weight: bold;'>HARDWARE</span>.
+	</div>
+	""", unsafe_allow_html=True)
+	st.write("") # Espaço
+	st.divider()
+	st.write("") # Espaço
 	st.markdown("""
 	<div style='text-align: justify; font-size: 16px;'>
 	    <span style='color: #008080; font-weight: bold;'>OBS:</span> 
