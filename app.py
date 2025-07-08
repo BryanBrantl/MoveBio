@@ -207,7 +207,16 @@ elif selected == "Atualização Semanal":
 	    """,
 	    unsafe_allow_html=True
 	)
-
+	st.markdown("""
+	<div style='text-align: justify; font-size: 16px;'>
+	    <span style='color: #008080; font-weight: bold;'>OBS:</span> 
+	    O funcionamento desta entrega está localizado na página 
+	    <span style='color: #008080; font-weight: bold;'>HOME</span>, com o projeto já sendo testado com toda a integração: 
+	    <span style='color: #008080; font-weight: bold;'>MECÂNICA</span>, 
+	    <span style='color: #008080; font-weight: bold;'>SOFTWARE</span>, 
+	    <span style='color: #008080; font-weight: bold;'>HARDWARE</span>.
+	</div>
+	""", unsafe_allow_html=True)
 	st.markdown("""
 	    <h3>Integração do Circuito Clamper</h3>
 	    <div style='text-align: justify;'>
