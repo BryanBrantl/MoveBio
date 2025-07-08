@@ -64,9 +64,9 @@ except FileNotFoundError:
 video1 = "https://www.youtube.com/watch?v=jdvn68mhcQE"
 video2 = "https://youtube.com/shorts/xoU3nnxIE90"
 
-proposta_url ="https://docs.google.com/document/d/1uJpoXcehrK1Lv2cPMxUtHkvSNNtmgnatSJdmxfzy8gc/edit?usp=sharing"
+proposta_url ="https://drive.google.com/file/d/1rYrxMrfTaIwfsUZtwLDXWOBLR937v-OY/view?usp=sharing"
 relatorio_final_url ="https://docs.google.com/document/d/1uJpoXcehrK1Lv2cPMxUtHkvSNNtmgnatSJdmxfzy8gc/edit?usp=sharing"
-cronograma_url = "https://docs.google.com/spreadsheets/d/1Fb5_otX8z50tuy9RbcGGC89BLKfErs_SCnML-JGeyQU/edit?usp=sharing"
+cronograma_url = "https://drive.google.com/file/d/12h9dYJhDGr-jRnB5PHiJoNftmZ1NozG2/view?usp=drive_link"
 ############################################ Conteúdo de acordo com o menu selecionado ############################################
 ################################################################################################   HOME    #################################
 if selected == "Home" and all([img1, img2, img3, img4]):
