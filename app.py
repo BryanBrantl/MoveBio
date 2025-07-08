@@ -230,10 +230,11 @@ elif selected == "Atualização Semanal":
 	        Na etapa final, foi desenvolvido um compartimento físico para acomodar e proteger o circuito eletrônico, incluindo o <b>ESP32</b>, a fonte de alimentação e demais componentes, assegurando praticidade e organização durante o uso.
 	    </div>
 	""", unsafe_allow_html=True)
-	
-	st.image(img23, caption="CAIXA FEITA EM IMPRESSÃO 3D",use_container_width=True)
-	st.image(img24, caption="CARRINHO",use_container_width=True)
-	st.divider()
+	i1, i2 = st.columns(2)
+	with i1:
+		st.image(img24, caption="CAIXA FEITA EM IMPRESSÃO 3D",use_container_width=True)	
+	with i2:
+		st.image(img25, caption="CARRINHO",use_container_width=True)
 	####################################### ENTREGA SOFTWARE ############################
 	st.markdown(
 	    """
