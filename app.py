@@ -72,7 +72,7 @@ tabeladecusto_url ="https://drive.google.com/file/d/1DMyMVpQ_crz_cCb9aD9ab3RmOMV
 ############################################ Conteúdo de acordo com o menu selecionado ############################################
 ################################################################################################   HOME    #################################
 if selected == "Home" and all([img1, img2, img3, img4]):
-    st.markdown("<h1 style='text-align: center; color: #008080;'> Demonstração do projeto BioMove </h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #008080;'> DEMONSTRAÇÃO DO PROJETO: BIOMOVE </h1>", unsafe_allow_html=True)
 	
     st.markdown("""
     <div style="text-align: center;">
