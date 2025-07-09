@@ -587,6 +587,7 @@ elif selected == "Relatórios":
 	    texto_botao="ACESSAR RELATÓRIO FINAL",
 	    url_botao=relatorio_final_url
 	)
+	st.markdown("<h1 style='text-align: center; color: #008080;'> VÍDEO FINAL </h1>", unsafe_allow_html=True)
 
 	st.markdown("""
 	<div style="text-align: center;">
