@@ -221,7 +221,20 @@ elif selected == "Atualização Semanal":
 	    """,
 	    unsafe_allow_html=True
 	)
-
+	
+	st.markdown("""
+	<div style='text-align: justify; font-size: 16px;'>
+	    <span style='color: #008080; font-weight: bold;'>OBS:</span> 
+	    O funcionamento desta entrega está disponível na página 
+	    <span style='color: #008080; font-weight: bold;'>HOME</span>, com o projeto já testado em sua totalidade, integrando as etapas de 
+	    <span style='color: #008080; font-weight: bold;'>MECÂNICA</span>, 
+	    <span style='color: #008080; font-weight: bold;'>SOFTWARE</span> e 
+	    <span style='color: #008080; font-weight: bold;'>HARDWARE</span>.
+	</div>
+	""", unsafe_allow_html=True)
+	st.divider()	
+	st.write("") # Espaço
+	
 	st.markdown("## Hardware definitivo")
 	
 	st.markdown("""
@@ -241,20 +254,7 @@ elif selected == "Atualização Semanal":
 	
 	with col2:
 	    st.image(img24, caption="Circuito 2", use_container_width=True)
-	st.write("") # Espaço
-	st.markdown("""
-	<div style='text-align: justify; font-size: 16px;'>
-	    <span style='color: #008080; font-weight: bold;'>OBS:</span> 
-	    O funcionamento desta entrega está disponível na página 
-	    <span style='color: #008080; font-weight: bold;'>HOME</span>, com o projeto já testado em sua totalidade, integrando as etapas de 
-	    <span style='color: #008080; font-weight: bold;'>MECÂNICA</span>, 
-	    <span style='color: #008080; font-weight: bold;'>SOFTWARE</span> e 
-	    <span style='color: #008080; font-weight: bold;'>HARDWARE</span>.
-	</div>
-	""", unsafe_allow_html=True)
-	
-	st.write("") # Espaço
-	st.divider()
+	st.divider()	
 	st.write("") # Espaço
 	
 	st.markdown("""
