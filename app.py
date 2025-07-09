@@ -592,7 +592,6 @@ elif selected == "Relatórios":
 	<iframe width="640" height="360" 
 	src="https://www.youtube.com/watch?v=eqlHAxxmIHE" 
 	title="YouTube video" frameborder="0" 
-	style="display: block; margin-left: auto; margin-right: auto;" 
 	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 	allowfullscreen></iframe>
 	""", unsafe_allow_html=True)
