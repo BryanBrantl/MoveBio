@@ -589,11 +589,12 @@ elif selected == "Relatórios":
 	)
 
 	st.markdown("""
-	<iframe width="640" height="360"
-	src="https://www.youtube.com/embed/eqlHAxxmIHE"
-	frameborder="0" allowfullscreen></iframe>
+	<div style="text-align: center;">
+	    <iframe width="640" height="360"
+	    src="https://www.youtube.com/embed/eqlHAxxmIHE"
+	    frameborder="0" allowfullscreen></iframe>
+	</div>
 	""", unsafe_allow_html=True)
-
 ############################################################################################
 ###################################   CRONOGRAMA    ########################################
 elif selected == "Cronograma":
