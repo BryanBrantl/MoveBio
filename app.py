@@ -12,7 +12,7 @@ st.markdown("<h1 style='color:white;'>BIOMOVE</h1>", unsafe_allow_html=True)
 # Menu horizontal com abas
 selected = option_menu(
     menu_title=None,
-    options=["Home", "BioMove", "Atualização Semanal", "Relatórios", "Cronograma"],
+    options=["Home", "BioMove", "Atualização Semanal", "Relatórios", "Custos e Cronograma"],
     orientation="horizontal",
     default_index=0,
     icons=["house", "bar-chart", "calendar", "file-earmark-text", "clock"],
@@ -65,7 +65,7 @@ video1 = "https://www.youtube.com/watch?v=jdvn68mhcQE"
 video2 = "https://youtube.com/shorts/xoU3nnxIE90"
 
 proposta_url ="https://drive.google.com/file/d/1rYrxMrfTaIwfsUZtwLDXWOBLR937v-OY/view?usp=sharing"
-relatorio_final_url ="https://docs.google.com/document/d/1uJpoXcehrK1Lv2cPMxUtHkvSNNtmgnatSJdmxfzy8gc/edit?usp=sharing"
+relatorio_final_url ="https://drive.google.com/file/d/1le6f5-uIZGDcE8AVq8N2wSxk400Y54E8/view?usp=sharing"
 cronograma_url = "https://drive.google.com/file/d/1dAj2meYaIEoVXa1U7aTqnkUymjawkRhC/view?usp=drive_link"
 tabeladecusto_url ="https://drive.google.com/file/d/1DMyMVpQ_crz_cCb9aD9ab3RmOMVNSeU4/view?usp=sharing"
 
@@ -576,14 +576,6 @@ elif selected == "Relatórios":
 	    url_botao=proposta_url
 	)
  
- 	# Bloco para a tabela de custos
-	bloco_informacao(
-	    titulo_bloco="Tabela de Custos",
-	    texto_descricao="O relatório final do projeto BioMove, contendo todos os resultados, análises e conclusões, também pode ser acessado através do botão abaixo:",
-	    texto_botao="ACESSAR TABELA DE CUSTOS",
-	    url_botao=tabeladecusto_url
-	) 
- 
 	# Bloco para o Relatório Final do Projeto
 	bloco_informacao(
 	    titulo_bloco="Relatório Final do Projeto",
@@ -602,7 +594,7 @@ elif selected == "Relatórios":
 	""", unsafe_allow_html=True)
 ############################################################################################
 ###################################   CRONOGRAMA    ########################################
-elif selected == "Cronograma":
+elif selected == "Custos e Cronograma":
 	def bloco_informacao(titulo_bloco, texto_descricao, texto_botao, url_botao):
 	    st.markdown(f"""
 	        <div style="background-color:#1e1e1e; padding:20px; margin-bottom:10px; border-radius:10px; border-left: 5px solid teal;">
@@ -634,6 +626,13 @@ elif selected == "Cronograma":
 	    url_botao=cronograma_url
 	)
 
+ 	 	# Bloco para a tabela de custos
+	bloco_informacao(
+	    titulo_bloco="Tabela de Custos",
+	    texto_descricao="O relatório final do projeto BioMove, contendo todos os resultados, análises e conclusões, também pode ser acessado através do botão abaixo:",
+	    texto_botao="ACESSAR TABELA DE CUSTOS",
+	    url_botao=tabeladecusto_url
+	) 
 # Rodapé
 st.markdown("""
     <style>
