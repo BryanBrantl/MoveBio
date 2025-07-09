@@ -577,7 +577,7 @@ elif selected == "Relatórios":
 	    titulo_bloco="Tabela de Custos",
 	    texto_descricao="O relatório final do projeto BioMove, contendo todos os resultados, análises e conclusões, também pode ser acessado através do botão abaixo:",
 	    texto_botao="ACESSAR TABELA DE CUSTOS",
-	    url_botao=relatorio_final_url
+	    url_botao=tabeladecusto_url
 	) 
  
 	# Bloco para o Relatório Final do Projeto
