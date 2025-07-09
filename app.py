@@ -221,6 +221,26 @@ elif selected == "Atualização Semanal":
 	    """,
 	    unsafe_allow_html=True
 	)
+
+	st.markdown("## Hardware definitivo")
+	
+	st.markdown("""
+	A equipe desenvolveu a última e definitiva edição 
+	<span style='color:#008080; font-weight:bold;'>PCB_final_v7.6.3</span> para o projeto final.
+	
+	Agora no circuito final temos a adição de outro módulo EMG para que receba os sinais de entrada dos dois braços.  
+	Além disso, foi integrado o circuito <span style='color:#008080; font-weight:bold;'>Clamper</span>, com o objetivo de adicionar um 
+	<span style='color:#008080; font-weight:bold;'>offset</span> ao sinal EMG, convertendo-o em um sinal de corrente contínua 
+	(<span style='color:#008080; font-weight:bold;'>DC</span>), evitando a presença de sinais negativos que poderiam danificar o microcontrolador.
+	""", unsafe_allow_html=True)
+	
+	col1, col2 = st.columns(2)
+	
+	with col1:
+	    st.image(img23, caption="Circuito 1", use_container_width=True)
+	
+	with col2:
+	    st.image(img24, caption="Circuito 2", use_container_width=True)
 	st.write("") # Espaço
 	st.markdown("""
 	<div style='text-align: justify; font-size: 16px;'>
