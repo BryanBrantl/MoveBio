@@ -72,12 +72,16 @@ tabeladecusto_url ="https://drive.google.com/file/d/1DMyMVpQ_crz_cCb9aD9ab3RmOMV
 ############################################ Conteúdo de acordo com o menu selecionado ############################################
 ################################################################################################   HOME    #################################
 if selected == "Home" and all([img1, img2, img3, img4]):
+    st.markdown("<h1 style='text-align: center; color: #008080;'> Demonstração do projeto BioMove </h1>", unsafe_allow_html=True)
+	
     st.markdown("""
-    <iframe width="640" height="360" 
-    src="https://www.youtube.com/embed/MNt9wBUUIjA" 
-    title="YouTube video" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen></iframe>
+    <div style="text-align: center;">
+        <iframe width="640" height="360" 
+        src="https://www.youtube.com/embed/MNt9wBUUIjA" 
+        title="YouTube video" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </div>
     """, unsafe_allow_html=True)
 
     st.markdown("<h1 style='text-align: center; color: #008080 ;'>MEMBROS</h1>", unsafe_allow_html=True)
