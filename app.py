@@ -588,7 +588,15 @@ elif selected == "Relatórios":
 	    url_botao=relatorio_final_url
 	)
 
-	
+	st.markdown("""
+	<div style="text-align: center;">
+	    <iframe width="640" height="360" 
+	    src="https://www.youtube.com/watch?v=eqlHAxxmIHE" 
+	    title="YouTube video" frameborder="0" 
+	    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+	    allowfullscreen></iframe>
+	</div>
+	""", unsafe_allow_html=True)
 
 ############################################################################################
 ###################################   CRONOGRAMA    ########################################
